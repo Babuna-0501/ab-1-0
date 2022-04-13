@@ -1,0 +1,24 @@
+a {
+    /* padding: 16px 10px !important; */
+    font-size: 12px;
+}
+
+/* ul {
+    display: flex;
+} */
+
+div {
+  border-bottom: unset !important;
+}
+
+.products {
+    margin-top: 1rem;
+}
+
+.prod-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}

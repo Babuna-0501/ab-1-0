@@ -1,0 +1,15 @@
+.banner {
+    position: relative;
+}
+
+.carousel {
+    position: absolute;
+    width: 420px;
+}
+
+.carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    object-fit: cover;
+}

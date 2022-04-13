@@ -1,0 +1,54 @@
+.product {
+    width: 175px;
+    height: 210px;
+    background-color: #F4F4F4;
+    margin-top: 15px;
+}
+
+.new {
+    height: 20px;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+}
+
+.brand {
+    margin-top: -1rem;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+}
+
+.detail {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.price {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #646464;
+}
