@@ -28,7 +28,7 @@
 .productDetail_info--price {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 4.673vw;
 }
 
 .productDetail_info--price span:last-of-type {
@@ -41,35 +41,35 @@
     border: 1px solid #C73450;
     border-bottom:  1px solid #C73450 !important;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 4.673vw;
     color: #C73450;
 }
 
 .productDetail .productDetail_payment {
     display: flex; 
     flex-direction: column;
-    margin: 0 30px;
+    margin: 0 7.009vw;
 }
 .productDetail .productDetail_payment .top {
     display: inherit;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    gap: 20px;
-    margin-left: -70px;
+    margin-top: 4.673vw;
+    gap: 4.673vw;
+    margin-left: -16.355vw;
 }
 
 .productDetail .productDetail_payment .top button {
     font-family: inherit;
-    font-size: 12px;
+    font-size: 2.804vw;
     font-weight: 600;
-    width: 135px;
-    height: 35px;
+    width: 31.542vw;
+    height: 8.178vw;
     text-decoration: none;
     text-shadow: none;
     border: none;
-    border-radius: 30px;
+    border-radius: 7.009vw;
     cursor: pointer;
 }
 
@@ -106,4 +106,9 @@
 
 .productDetail .productDetail_payment .btm div {
     color: #646464;
+}
+
+.productDetail_wrapper {
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
 }

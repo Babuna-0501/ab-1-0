@@ -60,33 +60,35 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                     <img loading='lazy' src={Img5} alt="" />
                 </div>
             </Carousel>
-            <div className='productDetail_info'>
-                <div className='left'>
-                    <div className='productDetail_info--brand'><img src={Brand} alt="lazy" /></div>
-                    <div className='productDetail_info--desc'>Тоос сорогч</div>
-                    <div className='productDetail_info--price'>
-                        <span>319,900₮</span>
-                        <span>639,800₮</span>
+            <div className="productDetail_wrapper">
+                <div className='productDetail_info'>
+                    <div className='left'>
+                        <div className='productDetail_info--brand'><img src={Brand} alt="lazy" /></div>
+                        <div className='productDetail_info--desc'>Тоос сорогч</div>
+                        <div className='productDetail_info--price'>
+                            <span>319,900₮</span>
+                            <span>639,800₮</span>
+                        </div>
+                    </div>
+                    <div className='right'>
+                        -50%
                     </div>
                 </div>
-                <div className='right'>
-                    -50%
-                </div>
-            </div>
-            <div className='productDetail_payment'>
-                <div className='top'>
-                    <button>Худалдан авах</button>
-                    <button>Сагсанд нэмэх</button>
-                </div>
-                <div className='mid'>
-                <picture><img src={Simple} alt="" /></picture>
-                </div>
-                <div className='btm'>
-                    <h3>Үндсэн мэдээлэл:</h3>
-                    <div>Bagless Vacuum Cleaner</div>
-                    <div>Хэмжээ: 40х28х24 см</div>
-                    <div>Жин: 4.8 </div>
-                    <div>Утастай</div>
+                <div className='productDetail_payment'>
+                    <div className='top'>
+                        <button>Худалдан авах</button>
+                        <button>Сагсанд нэмэх</button>
+                    </div>
+                    <div className='mid'>
+                    <picture><img src=""alt="" /></picture>
+                    </div>
+                    <div className='btm'>
+                        <h3>Үндсэн мэдээлэл:</h3>
+                        <div>Bagless Vacuum Cleaner</div>
+                        <div>Хэмжээ: 40х28х24 см</div>
+                        <div>Жин: 4.8 </div>
+                        <div>Утастай</div>
+                    </div>
                 </div>
             </div>
         </div>

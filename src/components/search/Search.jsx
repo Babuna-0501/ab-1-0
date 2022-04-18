@@ -24,7 +24,7 @@ const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const [searchResults, setSearchResults] = useState([]);
-  // at every occurance of the change event, sets the current value of the form to the state
+  
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };

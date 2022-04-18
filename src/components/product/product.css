@@ -1,23 +1,23 @@
 .product {
-    width: 175px;
-    height: 210px;
+    width: 40.888vw;
+    height: 49.065vw;
     background-color: #F4F4F4;
-    margin-top: 15px;
+    margin-top: 3.505vw;
 }
 
 .new {
-    height: 20px;
+    height: 4.673vw;
     background-color: #000;
     width: 100%;
     color: #fff;
-    font-size: 10px;
+    font-size: 2.336vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .img {
-    width: 120px;
-    height: 120px;
+    width: 28.037vw;
+    height: 28.037vw;
     object-fit: contain;
     margin-left: auto;
     display: flex;
@@ -25,7 +25,7 @@
 }
 
 .brand {
-    margin-top: -1rem;
+    margin-top: -2.804vw;
     margin-left: auto;
     display: flex;
     margin-right: auto;
@@ -33,7 +33,7 @@
 
 .detail {
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 2.804vw;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -44,7 +44,7 @@
 
 .price {
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 2.336vw;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;

@@ -1,0 +1,61 @@
+.login {
+    width: 100%;
+    height: auto;
+    background-color: #404040;
+    padding: 100px 40px 140px;
+}
+
+.login h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    width: 204px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login .form-control {
+    background-color: #404040;
+    border-radius: 0;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.login form {
+    margin-top: 60px;
+}
+.login .form_lg-fx {
+    display: flex !important;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.login .form-text {
+    margin-top: 2px;
+    text-decoration: underline;
+}
+
+.login .form_idx {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.login .form_idx .btn_form {
+    width: 222px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+.login .form_idx .btn_form:first-of-type {
+    background-color: #404040;
+    border-color: #fff;
+}

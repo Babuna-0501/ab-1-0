@@ -1,0 +1,35 @@
+.step2 {
+    padding: 30px 20px 0;
+}
+
+.step2 .lbl-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.step2 .lbl-wrapper p {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+
+.step2 .lbl-wrapper .step2-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.step2 .form-check-input:checked {
+   background-color: #2a1942;
+   border-color: #2a1942;
+}
+
