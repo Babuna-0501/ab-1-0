@@ -1,0 +1,33 @@
+.step3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.step3_col {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    border-bottom: 1px solid #ddd !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.step3_col img {
+    width: 35px;
+}
+
+.step3_col p {
+    margin: 0;
+    margin-left: 10%;
+}

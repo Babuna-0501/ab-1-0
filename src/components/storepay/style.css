@@ -1,0 +1,107 @@
+.offcanvas-bottom {
+    height: 62vh !important;
+}
+
+
+.me-2 {
+    margin-right: 0.5rem!important;
+    width: -3px;
+    width: 16px !important;
+    height: 16px;
+    border-radius: 25px;
+    background-color: transparent !important;
+    border: 1px solid #ddd !important;
+    padding: 0 !important;
+    margin-top: -0.45rem !important;
+    margin-left: 38.2vw;
+    appearance: none !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.payment_off, .result_off {
+   font-size: 12px;
+}
+
+.off {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.price_off {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.off_screen--invoice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 95%;
+    background-color: #F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.invoice1 {
+    font-size: 12px;
+}
+
+.invoice2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.inquiry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 12px;
+}
+
+.contact span {
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.btm_view-off {
+    width: 100%;
+    height: 50px;
+    background-color: #C73450;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btm_view-off div {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}

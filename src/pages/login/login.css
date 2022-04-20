@@ -23,6 +23,7 @@
     border-right: unset;
     outline: none !important;
     box-shadow: none !important;
+    color: #fff;
 }
 
 .login form {

@@ -8,6 +8,7 @@ import Basket from './components/basket/Basket';
 import Login from './pages/login/Login';
 import Purchase from './components/purchase/Purchase';
 import Step2 from './components/purchase/step2/step2';
+import Step3 from './components/purchase/step3/step3';
 
 function App() {
   
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path="/product/step2"> 
               <Step2/> 
+            </Route>
+            <Route path="/product/step3"> 
+              <Step3/> 
             </Route>
           </Switch>
         </div>

@@ -1,13 +1,21 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 import './step2.css';
 import wallet from '../../../assets/payment-method.png'
+import Statebank from '../../../assets/logos/state_bank.png'
+import Xacbank from '../../../assets/logos/Xac_bank.jpeg'
+import HHbank from '../../../assets/logos/ HHB.jpeg'
+import Mm from '../../../assets/logos/mm.jpeg'
+import Ub from '../../../assets/logos/ub_bank.png'
+import Xaan from '../../../assets/logos/xaanbank.png'
+import Store from '../../../assets/logos/store_pay.jpeg'
+import ByAccount from "../../storepay/Storepay";
 
 const Step2 = () => {
   const [item, setItem] = useState({ kindOfStand: "", another: "another" });
 
   const { kindOfStand } = item;
-
   const handleChange = e => {
     e.persist();
     console.log(e.target.value);
@@ -23,13 +31,14 @@ const Step2 = () => {
     alert(`${kindOfStand}`);
   };
 
+
   return (
     <div className="step2">
         <form onSubmit={handleSubmit}>
             <Form.Group controlId="kindOfStand">
             <div className="lbl-wrapper">     
             <img className="step2-icon" src={wallet} alt="" /> 
-            <p>Дансаар шилжүүлэх</p> 
+            <p>Дансаар шилжүүлэх </p> 
                 <Form.Check
                 value="Дансаар шилжүүлэх"
                 type="radio"
@@ -37,10 +46,12 @@ const Step2 = () => {
                 label=""
                 onChange={handleChange}
                 checked={kindOfStand === "Дансаар шилжүүлэх"}
-                />
+                >
+                    <ByAccount/>
+                </Form.Check>
             </div>
             <div className="lbl-wrapper">     
-            <img className="step2-icon" src={wallet} alt="" /> 
+            <img className="step2-icon" src={HHbank} alt="" /> 
             <p>Худалдаа хөгжлийн банк</p> 
                 <Form.Check
                 value="ХХБ"
@@ -52,7 +63,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-            <img className="step2-icon" src={wallet} alt="" /> 
+            <img className="step2-icon" src={Mm} alt="" /> 
             <p>Most Money</p> 
                 <Form.Check
                 value="Most"
@@ -64,7 +75,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
+                <img className="step2-icon" src={Store} alt="" /> 
                 <p>Store Pay</p> 
                 <Form.Check
                 value="Store"
@@ -100,7 +111,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
+                <img className="step2-icon" src={Xaan} alt="" /> 
                 <p>Хаан Банк</p> 
                 <Form.Check
                 value="khaan"
@@ -112,7 +123,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
+                <img className="step2-icon" src={Statebank} alt="" /> 
                 <p>Төрийн Банк</p> 
                 <Form.Check
                 value="Tur"
@@ -124,7 +135,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
+                <img className="step2-icon" src={Ub} alt="" /> 
                 <p>Улаанбаатар Хотын Банк</p> 
                 <Form.Check
                 value="UB"
@@ -172,7 +183,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
+                <img className="step2-icon" src={Xacbank} alt="" style={{borderRadius:"5px"}} /> 
                 <p>Xac Банк</p> 
                 <Form.Check
                 value="Xac Банк"
@@ -184,10 +195,15 @@ const Step2 = () => {
                 />
             </div>
             </Form.Group>
-            <Button variant="primary" type="submit">
-            Submit
+            <Button className="btn" variant="primary" type="submit">
+            Үргэлжлүүлэх
             </Button>
         </form>
+        <div className="btm_view">
+            <div>Төлөх дүн</div>
+          
+            <div>1,229,900₮</div>
+        </div>
     </div>
   );
 };
