@@ -1,4 +1,4 @@
-.navbar {
+.navbar-ab {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,14 +12,14 @@
     margin-top: 1.5rem;
 }
 
-.navbar .right {
+.navbar-ab .right {
     display: flex;
     margin-top: 1.4rem;
     width: 60px;
     justify-content: space-between;
 }
 
-.navbar .right .search-icon {
+.navbar-ab .right .search-icon {
     width: 30px;
     height: 30px;
 }
