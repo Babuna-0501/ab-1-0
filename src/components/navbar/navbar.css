@@ -15,8 +15,9 @@
 .navbar-ab .right {
     display: flex;
     margin-top: 1.4rem;
-    width: 60px;
+    width: 110px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-ab .right .search-icon {

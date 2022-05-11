@@ -9,6 +9,9 @@ import Login from './pages/login/Login';
 import Purchase from './components/purchase/Purchase';
 import Step2 from './components/purchase/step2/step2';
 import Step3 from './components/purchase/step3/step3';
+import Terms from './components/terms/terms';
+import About from './components/about/about';
+import ProductList from './components/productList/productList'
 
 function App() {
   
@@ -23,6 +26,9 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route path="/about">
+              <About/>
+            </Route>
             <Route path="/search">
               <Search />
             </Route>
@@ -32,8 +38,14 @@ function App() {
             <Route path="/product/detail">
               <ProductDetail/>
             </Route>
+            <Route path="/productList">
+              <ProductList/>
+            </Route>
             <Route path="/basket">
               <Basket/>
+            </Route>
+            <Route path="/terms">
+              <Terms/>
             </Route>
             <Route path="/product/purchase"> 
               <Purchase/> 

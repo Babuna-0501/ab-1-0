@@ -16,6 +16,8 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.0",
     "sass": "^1.51.0",
+    "swiper": "^8.1.4",
+    "tabs-slider": "^3.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,6 +1,10 @@
+.menu .nav-link {
+    font-family: Montserrat;
+}
+
 .menu .bg-light {
     background-color: #fff !important;
-   }
+}
 
 .navbar-light .navbar-toggler {
     border-color: transparent !important;
@@ -9,6 +13,8 @@
 
 .nav-link {
     color: #000 !important;
+    font-family: Montserrat;
+    font-size: 18px;
 }
 
 .borderBottom {
@@ -16,3 +22,14 @@
     padding-bottom: 1rem;
 }
 
+.dropdown-item {
+    font-family: Montserrat;
+}
+
+.dropdown-menu {
+    border: unset !important;
+}
+
+.navbar-toggler {
+    padding: 0 !important;
+}
