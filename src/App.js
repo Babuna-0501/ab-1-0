@@ -12,6 +12,7 @@ import Step3 from './components/purchase/step3/step3';
 import Terms from './components/terms/terms';
 import About from './components/about/about';
 import ProductList from './components/productList/productList'
+import Loan from './components/purchase/loan/loan';
 
 function App() {
   
@@ -55,6 +56,9 @@ function App() {
             </Route>
             <Route path="/product/step3"> 
               <Step3/> 
+            </Route>
+            <Route path="/product/loan"> 
+              <Loan/> 
             </Route>
           </Switch>
         </div>

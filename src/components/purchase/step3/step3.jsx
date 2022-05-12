@@ -20,6 +20,11 @@ const step3 = () => {
         <div className='step3_col'><img src={Mm} alt="lazy" /><p>Most money</p> </div>
         <div className='step3_col'><img src={Ub} alt="lazy" /><p>УБ хотын Банк</p> </div>
         <div className='step3_col'><img src={Ni} alt="lazy" /><p>Үндэсний хөрөнгө оруулалтын Банк</p> </div>
+        <div className="btm_view">
+            <div>Төлөх дүн</div>
+          
+            <div>1,229,900₮</div>
+        </div>
     </div>
   )
 }

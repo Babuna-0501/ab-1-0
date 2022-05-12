@@ -1,13 +1,9 @@
-.step3 {
-    display: flex;
-    flex-direction: column;
-}
 
 .step3_col {
     display: flex;
     align-items: center;
     width: 90vw;
-    height: 50px;
+    height: 13.333vw;
     border: 1px solid #f4f4f4;
     border-bottom: 1px solid #ddd !important;
     padding-left: 10px;

@@ -1,5 +1,7 @@
 import './productList.css'
 import { Tabs } from "@yazanaabed/react-tabs";
+import Product from '../product/Product';
+
 
 
 const productList = () => {
@@ -10,14 +12,32 @@ const productList = () => {
               id: "tab1"
           }}
           >
-          <Tabs.Tab id="tab1" title="Цахилгаан бараа">
-              <div className='prod-wrapper' style={{ padding: 10 }}></div>
+          <Tabs.Tab id="tab1" title="Телевизор" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/></div>
           </Tabs.Tab>
-          <Tabs.Tab id="tab2" title="Гар утас">
-              <div style={{ padding: 10 }}>This is tab 2</div>
+          <Tabs.Tab id="tab2" title="Хөргөгч / хөлдөөгч" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/><Product/></div>
           </Tabs.Tab>
-          <Tabs.Tab id="tab3" title="Компьютер">
-              <div style={{ padding: 10 }}>This is tab 3</div>
+          <Tabs.Tab id="tab3" title="Плетка" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab4" title="Дуков" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab5" title="Хиншүү сорогч" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab6" title="Аяга таваг угаагч" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab7" title="Угаалгын машин" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab8" title="Тоос сорогч" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/><Product/></div>
+          </Tabs.Tab>
+          <Tabs.Tab id="tab9" title="Индүү" className='list-wrapper'>
+              <div className='prod-wrapper'><Product/><Product/><Product/></div>
           </Tabs.Tab>
       </Tabs>
     </div>

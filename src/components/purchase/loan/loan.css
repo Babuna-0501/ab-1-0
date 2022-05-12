@@ -1,0 +1,62 @@
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+select:active,
+select:hover,
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+.loan {
+    padding: 30px 25px;
+    font-family: Montserrat;
+}
+
+.loan .form-control  {
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-radius: 0%;
+    padding: .875rem .75rem;
+}
+
+.loan .form-select {
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-radius: 0%;
+}
+
+.loan label {
+   padding: 0.775rem;
+}
+
+.loan .loan__btn {
+    width: 136px;
+    height: 35px;
+    margin: 3.1rem 16.2rem 0 0.1rem;
+    border-radius: 17.5px;
+    background-color: #1b3268;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}

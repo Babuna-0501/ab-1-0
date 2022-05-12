@@ -1,0 +1,21 @@
+.productList ul {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.productList .list-wrapper {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.productList .prod-wrapper {
+    margin-left: 6.505vw;
+    margin-right: 6.505vw;
+}
+.productList a {
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #000 !important;
+    font-size: 12px !important;
+}

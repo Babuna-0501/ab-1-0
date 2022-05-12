@@ -5,6 +5,14 @@ import Basket from '../../assets/basket.svg'
 import Search from '../../assets/search.svg'
 import Menu from '../menu/menu'
 
+
+// function* getStockValue() {
+//   var entry1 = yield request('http://myrl.com/stock/key');
+//   var data1  = JSON.parse(entry1);
+//   var entry2 = yield request('http://myurl/stock/value');
+//   var data2  = JSON.parse(entry2);
+// }
+
 const Navbar = () => {
   return (
     <div className='navbar-ab'>
