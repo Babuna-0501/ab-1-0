@@ -5,6 +5,34 @@
     margin-top: 3.505vw;
 }
 
+@media screen and (min-width: 800px) {
+    .product {
+        width: 438px;
+        height: 438px;
+        margin-top: 30px;
+    }
+    .product img{
+        width: 238px;
+        height: 238px;
+    }
+
+    .product .new {
+        font-size: 20px;
+        height: 40px;
+    }
+    .product .brand {
+        height: 40px;
+        margin-top: -30px;
+    }
+    .product .detail {
+        font-size: 25px;
+    }
+
+    .product .price {
+        font-size: 20px;
+    }
+}
+
 .new {
     height: 4.673vw;
     background-color: #B9D986;

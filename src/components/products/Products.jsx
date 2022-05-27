@@ -6,13 +6,14 @@ import Product from '../product/Product';
 const Products = () => {
   return (
     <div className='products'>
+        <h2>Бэлэн байгаа бараанууд</h2>
         <Tabs
             activeTab={{
                 id: "tab1"
             }}
             >
             <Tabs.Tab id="tab1" title="Цахилгаан бараа">
-                <div className='prod-wrapper' style={{ padding: 10 }}><Product/><Product/><Product/></div>
+                <div className='prod-wrapper' style={{ padding: 10 }}><Product/><Product/><Product/><Product/><Product/><Product/><Product/><Product/></div>
             </Tabs.Tab>
             <Tabs.Tab id="tab2" title="Гар утас">
                 <div style={{ padding: 10 }}>This is tab 2</div>

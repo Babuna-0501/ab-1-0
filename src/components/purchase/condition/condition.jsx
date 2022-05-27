@@ -1,9 +1,9 @@
-import React from 'react'
+import './condition.css'
 
 const condition = () => {
   return (
-    <div>
-        <h4>Зээлээр худалдан авах нөхцөл</h4>
+    <div className='condition'>
+        <h4 className='title'>Зээлээр худалдан авах нөхцөл</h4>
         <div>
             <h4>Зээлийн хэмжээ:</h4>
             <p>1,0-100,0 сая төгрөг хүртэл</p>

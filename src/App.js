@@ -13,6 +13,7 @@ import Terms from './components/terms/terms';
 import About from './components/about/about';
 import ProductList from './components/productList/productList'
 import Loan from './components/purchase/loan/loan';
+import Condition from './components/purchase/condition/condition'
 
 function App() {
   
@@ -59,6 +60,9 @@ function App() {
             </Route>
             <Route path="/product/loan"> 
               <Loan/> 
+            </Route>
+            <Route path="/product/condition"> 
+              <Condition/> 
             </Route>
           </Switch>
         </div>

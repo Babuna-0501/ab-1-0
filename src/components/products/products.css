@@ -19,10 +19,42 @@ div {
     margin-top: 1rem;
 }
 
+.products h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    margin-top: 60px;
+} 
+
+@media screen and (max-width: 800px) {
+    .products h2{
+        display: none;
+    } 
+}
+
 .prod-wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 3.505vw;
     margin-right: 3.505vw;
+}
+
+@media screen and (min-width: 800px) {
+    .prod-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        gap: 33px;
+        max-width: 1920px;
+    }
+    .products a {
+        font-size: 24px;
+    }
+    .products div div ul li a {
+        padding: 20px !important;
+    }
 }
