@@ -3,7 +3,9 @@
     margin: 0;
   }
 
-
+.home {
+  overflow: hidden;
+}
 
 /* @media screen and (min-width: 600px) {
   .home {

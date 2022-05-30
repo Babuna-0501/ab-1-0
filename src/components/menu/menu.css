@@ -33,3 +33,39 @@
 .navbar-toggler {
     padding: 0 !important;
 }
+
+.dropdown-toggle::after {
+    position: relative;
+    content: '';
+    display: block;
+    width: 10px;
+    height: 1px;
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown-toggle::before {
+    transform: rotate(45deg);
+}
+
+.dropdown-toggle::after {
+    left: 6px;
+    top: 4px;
+    transform: rotate(-90deg);
+}
+
+.dropdown-toggle.active .arrow::before {
+    transform: rotate(-45deg);
+  }
+  
+.dropdown-toggle.active .arrow::after {
+transform: rotate(45deg);
+}
+
+@media screen and (min-width: 800px) {
+    .nav-link {
+        font-size: 23px;
+    }
+}
+
+

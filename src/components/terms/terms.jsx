@@ -1,4 +1,5 @@
-import "./terms.css"
+import "./terms.css";
+
 
 const terms = () => {
   return (

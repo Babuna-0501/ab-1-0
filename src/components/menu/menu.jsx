@@ -33,6 +33,7 @@ const menu = () => {
                 <NavDropdown.Item href="/">Угаалгын машин</NavDropdown.Item>
                 <NavDropdown.Item href="/">Тоос сорогч</NavDropdown.Item>
                 <NavDropdown.Item href="/">Индүү</NavDropdown.Item>
+                <span class="arrow"></span>
               </NavDropdown>
             </Nav>
             <Nav className="justify-content-end flex-grow-1 pe-3">

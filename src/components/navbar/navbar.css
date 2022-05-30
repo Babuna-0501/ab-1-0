@@ -24,3 +24,15 @@
     width: 30px;
     height: 30px;
 }
+
+@media screen and (min-width: 800px) {
+    .navbar-ab .right .search_sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar-ab .right .search_xl {
+        display: none;
+    }
+}

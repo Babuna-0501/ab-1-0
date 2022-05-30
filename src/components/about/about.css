@@ -35,3 +35,33 @@
     font-size: 12px;
     text-align: left;
 }
+
+
+
+@media screen and (min-width: 800px) {
+    .about .about_pc_xl {
+        width: 100%;
+        height: auto;
+    }
+
+    .about h2 {
+        margin-top: 50px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .about {
+        padding: 0;
+    }
+    .about .about__wrapper {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 100px;
+        max-width: 1920px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about .about_pc_xl {
+       display: none;
+    }
+}

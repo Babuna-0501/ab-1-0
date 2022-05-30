@@ -23,7 +23,7 @@
     border-right: unset;
     outline: none !important;
     box-shadow: none !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 .login form {
@@ -59,4 +59,28 @@
 .login .form_idx .btn_form:first-of-type {
     background-color: #404040;
     border-color: #fff;
+}
+
+textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+    background-color: #404040 !important;
+    color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+    .login {
+      height: 100vh;
+      overflow: hidden;
+    }
+    .login h4 {
+        font-size: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .login .mb-3 {
+        width: 677px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

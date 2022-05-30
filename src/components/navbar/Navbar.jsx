@@ -18,10 +18,15 @@ const Navbar = () => {
     <div className='navbar-ab'>
         <div className='left'><Link to="/"><img className='logo' src={Logo} /> </Link></div>
         <div className='right'>
-            <div>
+            <div className='search_sm'>
                 <Link to="/search">
                   <img src={Search} alt="" />
                 </Link>
+            </div>
+            <div className='search_xl'>
+              <Link to="/find">
+                <img src={Search} alt="" />
+              </Link>
             </div>
             <div>
               <Link to="/basket">
