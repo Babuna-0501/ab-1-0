@@ -25,3 +25,60 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+    .basket_xl {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .basket_sm {
+        display: none;
+    }
+    .basket_xl {
+        display: flex;
+        flex-direction: row;
+    }
+    .basket_xl--left {
+        display: flex;
+        flex-direction: column;
+    }
+    .basket_xl--left--prod {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .basket_xl--left--prod div {
+        display: flex;
+        flex-direction: column;
+    }
+    .basket_xl--left--prod .prod_img {
+        width: 135px;
+        height: 150px;
+    }
+    .basket_xl--left--prod .prod_img2 {
+        width: 110px;
+        height: 150px;
+        margin-left: 24px;
+    }
+    .title {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 28px;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+        font-stretch: normal;
+    }
+    .dtl {
+        margin-top: 10px;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+    }
+    .basket_xl--left--prod:last-of-type {
+        margin-top: 50px;
+    }
+    .dtl_info {
+        width: 400px;
+    }
+}

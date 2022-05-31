@@ -1,53 +1,58 @@
-import React from 'react'
-import { Modal, Button } from 'react-bootstrap';
-import { useState } from 'react';
+import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
+import Arrow from '../../assets/arrow_left.svg'
+import './find.css';
 
-function MyVerticallyCenteredModal(props) {
+const products = [
+  "Телевизор",
+  "Гар утас",
+  "Компьютер",
+  "Хөргөгч",
+  "Хөлдөөгч",
+  "Зөөврийн компьютер",
+  "Индүү",
+  "Плетка",
+  "Дуков",
+  "Печь",
+  "Хиншүү сорогч",
+  "Аяга таваг угаагч",
+  "Угаалгын машин",
+  "Тоос сорогч"
+];
 
- 
-    return (
-      <Modal
-        {...props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Modal heading
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <h4>Centered Modal</h4>
-          <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
-          </p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer>
-      </Modal>
-    );
-  }
+const Find = () => {
+  const [searchTerm, setSearchTerm] = useState("");
 
-
-const find = () => {
-    const [modalShow, setModalShow] = useState(false);
-
-    return (
-      <>
-        <Button variant="primary" onClick={() => setModalShow(true)}>
-          Launch vertically centered modal
-        </Button>
+  const [searchResults, setSearchResults] = useState([]);
   
-        <MyVerticallyCenteredModal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-      </>
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+  useEffect(() => {
+    const results = products.filter((product) =>
+      product.toLowerCase().includes(searchTerm)
     );
-}
+    setSearchResults(results);
+  }, [searchTerm]);
+  return (
+    <div className="find">
+        <div className="find_wrapper">   
+            <input
+                type="text"
+                value={searchTerm}
+                onChange={handleChange}
+            />
+        </div>
 
-export default find;
+      <ul>
+        <a>
+          {searchResults.map((item) => (
+            <li key={item} className="item"> <Link style={{textDecoration:"none"}}>{item} </Link></li>
+        ))}
+        </a>
+      </ul>
+    </div>
+  );
+};
+
+export default Find;

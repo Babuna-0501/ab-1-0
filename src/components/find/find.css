@@ -1,0 +1,58 @@
+.find {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.find  .find_wrapper input {
+    width: 80%;
+    height: 50px;
+    border: unset;
+    background-color: #f4f4f4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+}
+
+.find  .find_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.find .find_wrapper textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+    background-color: #fff !important;
+}
+
+.find ul {
+    width: 80%;
+    text-decoration: none;
+    margin: 30px auto;
+}
+.find ul a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #000;
+}
+.find ul li {
+    list-style-type: none;
+}
+.item {
+    width: auto;
+    height: 30px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
