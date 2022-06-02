@@ -74,8 +74,8 @@
 }
 
 .productDetail .productDetail_payment .top button:first-of-type {
-    background-color: #C73450;
-    color: #fff;
+    background-color: #C73450 !important;
+    color: #fff !important;
 }
 
 .productDetail .productDetail_payment .top button:last-of-type {

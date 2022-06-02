@@ -18,7 +18,7 @@ function Banner() {
       className='carousel'
       >
         <div>
-            <img loading='lazy' src={Img4} alt="" />
+            <img loading='lazy' src={Img1} alt="" />
         </div>
         <div>
             <img loading='lazy' src={Img2} alt="" />

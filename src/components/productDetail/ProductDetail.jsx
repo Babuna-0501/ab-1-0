@@ -11,8 +11,8 @@ import Img5 from '../../assets/prod_example_img5.png'
 import Brand from '../../assets/Samsung-Symbol.svg'
 import Simple from '../../assets/simple_s.png'
 import './productDetail.css'
-
-
+import { Link } from 'react-router-dom';
+ 
 
 function ProductDetail({id, brand, price, desc, category, image }) {
     // const dispatch = useDispatch();
@@ -76,7 +76,9 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                 </div>
                 <div className='productDetail_payment'>
                     <div className='top'>
-                        <button>Худалдан авах</button>
+                        <Link to='/product/purchase'>
+                            <button>Худалдан авах</button>
+                        </Link>
                         <button>Сагсанд нэмэх</button>
                     </div>
                     <div className='mid'>
