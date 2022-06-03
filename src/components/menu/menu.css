@@ -61,7 +61,14 @@
 .dropdown-toggle.active .arrow::after {
 transform: rotate(45deg);
 }
-
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../../assets/burger_menu.svg') !important;
+    background-size: 21px !important;
+}
+.dropdown-toggle::after {
+    background-image: url('../../assets/arrow_left.svg') !important;
+    border: none !important;
+}
 @media screen and (min-width: 800px) {
     .nav-link {
         font-size: 23px;

@@ -13,7 +13,9 @@
     border: 0;
     object-fit: cover;
 }
-
+.carousel .control-dots .dot {
+    box-shadow: none !important;
+}
 @media screen and (min-width: 600px) {
     .carousel {
         width: 100%;

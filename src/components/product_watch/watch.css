@@ -1,0 +1,95 @@
+.watch {
+    width: 40.888vw;
+    height: 49.065vw;
+    background-color: #F4F4F4;
+    margin-top: 3.505vw;
+}
+
+@media screen and (min-width: 800px) {
+    .watch {
+        width: 438px;
+        height: 438px;
+        margin-top: 30px;
+    }
+    .watch img{
+        width: 238px;
+        height: 238px;
+    }
+
+    .watch .new {
+        font-size: 20px;
+        height: 40px;
+    }
+    .watch .brand {
+        height: 40px;
+        margin-top: -30px;
+    }
+    .watch .detail {
+        font-size: 25px;
+    }
+
+    .watch .price {
+        font-size: 20px;
+    }
+}
+
+.new {
+    height: 4.673vw;
+    background-color: #B9D986;
+    width: 100%;
+    color: #000;
+    font-size: 2.336vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch .img {
+    width: 28.037vw;
+    height: 28.037vw;
+    object-fit: contain;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    padding-top: 5vw;
+    margin-bottom: 5.1vw;
+}
+
+.watch a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.brand {
+    margin-top: -2.804vw;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+}
+
+.detail {
+    font-family: Montserrat;
+    font-size: 2.804vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.price {
+    font-family: Montserrat;
+    font-size: 2.336vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #646464;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+

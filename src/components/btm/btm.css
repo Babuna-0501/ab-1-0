@@ -59,7 +59,48 @@
 
 @media screen and (max-width: 800px) {
     .btm {
-        display: none;
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(to bottom, #c73450, #1a1a1a);
+        padding: 50px 25px 0;
+        color: #fff;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .btm .img_inner {
+        width: 74.5vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    } 
+    .btm h2  {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .btm .tabb {
+        width: 100%;
+
+    }
+    .btm ul li a {
+        font-size: 12px !important;
+        padding: 10px !important;
+        color: #fff !important;
+    }
+    .btm h5 {
+        font-weight: 500;
+    }
+    .btm .btn{
+        width: 134px;
+        height: 35px;
+        margin: 22px auto;
+        border-radius: 24px;
+        background-color: #fff;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
     }
 }
 

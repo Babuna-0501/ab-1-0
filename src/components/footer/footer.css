@@ -36,6 +36,35 @@
 
 @media screen and (max-width: 800px) {
     .footer {
-        display: none;
+        width: 100vw;
+        height: 286px;
+        padding: 42px 70px;
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 2.5em;
+    }
+
+    .footer div:first-of-type span{
+        display: block;
+        line-height: 2em;
+    }
+    .footer div:last-of-type span:first-of-type a {
+        width: 18px !important;
+        height: 18px !important;
+    }
+    .footer div:last-of-type span:first-of-type a:nth-child(2) {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .footer div:last-of-type span {
+        display: block;
+    }
+    .footer div:last-of-type {
+        line-height: 2.3em;
     }
 }

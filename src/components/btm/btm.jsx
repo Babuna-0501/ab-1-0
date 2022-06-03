@@ -23,14 +23,14 @@ const btm = () => {
                 </div>
             </Tabs.Tab>
             <Tabs.Tab id="tab2" title="Гар утас">
-                <div style={{ padding: 10 }}>
+                <div className='prod-wrapper' style={{ padding: 10 }}>
                     <div>
                         <img className='img_inner' src={img1} alt="" />
                     </div>
                 </div>
             </Tabs.Tab>
             <Tabs.Tab id="tab3" title="Компьютер">
-                <div style={{ padding: 10 }}>
+                <div className='prod-wrapper' style={{ padding: 10 }}>
                     <div>
                         <img className='img_inner' src={img1} alt="" />
                     </div>
