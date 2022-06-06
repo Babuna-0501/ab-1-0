@@ -12,13 +12,14 @@ import Brand from '../../assets/Samsung-Symbol.svg'
 import Simple from '../../assets/simple_s.png'
 import './productDetail.css'
 import { Link } from 'react-router-dom';
+import Product from "../product/Product";
+import Product2 from "../product2/product2";
+import Footer from "../footer/footer";
  
 
 function ProductDetail({id, brand, price, desc, category, image }) {
     // const dispatch = useDispatch();
     
-    // const [newProduct] = useState(Math.random() < 0.5)
- 
     // const addItemToBasket = () => {     
     //     const product = {
     //         id, 
@@ -77,22 +78,27 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                 <div className='productDetail_payment'>
                     <div className='top'>
                         <Link to='/product/purchase'>
-                            <button>Худалдан авах</button>
+                            <button className="btn_purchase">Худалдан авах</button>
                         </Link>
-                        <button>Сагсанд нэмэх</button>
+                        <button className="btn_basket">Сагсанд нэмэх</button>
                     </div>
                     <div className='mid'>
                     <picture><img src=""alt="" /></picture>
                     </div>
-                    <div className='btm'>
+                    <div className='prod_btm'>
                         <h3>Үндсэн мэдээлэл:</h3>
                         <div>Bagless Vacuum Cleaner</div>
                         <div>Хэмжээ: 40х28х24 см</div>
                         <div>Жин: 4.8 </div>
                         <div>Утастай</div>
                     </div>
+                    <div className="related">
+                        <h5>Төстэй бараанууд</h5>
+                        <div className="productDetail_payment--prods"><Product/><Product2/></div>
+                    </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

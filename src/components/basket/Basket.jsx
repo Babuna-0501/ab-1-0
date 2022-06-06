@@ -9,13 +9,20 @@ const Basket = () => {
   return (
     <div className='basket'>
       <div className='basket_sm'>
-        <div>
-            <h3>Таны сагс хоосон байна</h3>
-            <p>Төлбөр төлхөөсөө өмнө сагсандаа бараа хийнэ үү.</p>
+        <div className='basket_sm--wrapper'>
+          <div>
+              <h3>Таны сагс хоосон байна</h3>
+              <p>Төлбөр төлхөөсөө өмнө сагсандаа бараа хийнэ үү.</p>
+          </div>
+          <div>
+              <h4>Сүүлд үзсэн бараа</h4>
+              <Product/>
+          </div>
         </div>
-        <div>
-            <h4>Сүүлд үзсэн бараа</h4>
-            <Product/>
+        <div className="btm_view">
+            <div>Төлөх дүн</div>
+          
+            <div>1,229,900₮</div>
         </div>
       </div>
        <div className='basket_xl'>

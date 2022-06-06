@@ -1,8 +1,9 @@
 .login {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #404040;
     padding: 100px 40px 140px;
+    overflow: hidden;
 }
 
 .login h4 {
@@ -61,8 +62,8 @@
     border-color: #fff;
 }
 
-.login textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
-    /* background-color: #404040 !important; */
+.login textarea:hover, textarea:active, input:active , textarea:focus, input:focus {
+    background-color: #404040 !important;
     color: #fff;
 }
 

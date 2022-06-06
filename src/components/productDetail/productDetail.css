@@ -54,10 +54,9 @@
     display: inherit;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 4.673vw;
     gap: 4.673vw;
-    margin-left: -16.355vw;
 }
 
 .productDetail .productDetail_payment .top button {
@@ -73,14 +72,14 @@
     cursor: pointer;
 }
 
-.productDetail .productDetail_payment .top button:first-of-type {
+.productDetail .productDetail_payment .top .btn_purchase {
     background-color: #C73450 !important;
     color: #fff !important;
 }
 
-.productDetail .productDetail_payment .top button:last-of-type {
-    color: #000;
-    background-color: #fff;
+.productDetail .productDetail_payment .top .btn_basket {
+    color: #000 !important;
+    background-color: #fff !important;
     border: 1px solid #D9D9D9;
 }
 
@@ -95,20 +94,30 @@
     display: flex;
 }
 
-.productDetail .productDetail_payment .btm {
+.productDetail .productDetail_payment .prod_btm {
     margin-top: 20px;
     font-size: 12px;
 }
 
-.productDetail .productDetail_payment .btm h3 {
+.productDetail .productDetail_payment .prod_btm h3 {
     margin-bottom: 20px;
 }
 
-.productDetail .productDetail_payment .btm div {
+.productDetail .productDetail_payment .prod_btm div {
     color: #646464;
 }
 
 .productDetail_wrapper {
     /* margin-left: 5vw;
     margin-right: 5vw; */
+}
+
+.productDetail_payment--prods {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.productDetail_payment .related {
+    margin-top: 20px;
 }

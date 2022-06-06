@@ -13,6 +13,28 @@
     font-size: 12px;
     font-family: Montserrat;
 }
-.tabOne {
+.purchase .tabOne {
     background-color: black !important;
+}
+
+.purchase .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 2rem;
+}
+
+.purchase .form-label {
+   margin-bottom: -1rem;
+   position: relative;
+}
+
+.purchase ul {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem;
+}
+
+.purchase textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+    background-color: #fff !important;
 }

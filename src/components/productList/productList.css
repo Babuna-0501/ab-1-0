@@ -2,7 +2,9 @@
     overflow: auto;
     white-space: nowrap;
 }
-
+.productList {
+    overflow-x: hidden;
+}
 .productList .list-wrapper {
     display: inline-block;
     text-align: center;
@@ -18,4 +20,35 @@
     font-weight: 600;
     color: #000 !important;
     font-size: 12px !important;
+}
+
+.productList .btm_view {
+    width: 100%;
+    height: 50px;
+    background-color: #C73450;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.productList .btm_view div {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.productList ul {
+    padding-left: 2rem !important;
+    padding-right: 2rem;
 }

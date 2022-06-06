@@ -7,7 +7,7 @@ import Product from '../product/Product';
 const productList = () => {
   return (
     <div className='productList'>
-      <Tabs
+        <Tabs
           activeTab={{
               id: "tab1"
           }}
@@ -39,7 +39,12 @@ const productList = () => {
           <Tabs.Tab id="tab9" title="Индүү" className='list-wrapper'>
               <div className='prod-wrapper'><Product/><Product/><Product/></div>
           </Tabs.Tab>
-      </Tabs>
+        </Tabs>
+        <div className="btm_view">
+            <div>Төлөх дүн</div>
+          
+            <div>1,229,900₮</div>
+        </div>
     </div>
   )
 }

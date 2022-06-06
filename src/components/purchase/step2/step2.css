@@ -44,24 +44,24 @@
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 2.6rem;
-    background-color: #1B3268;
+    background-color: #C73450;
     border: none;
 }
 
-.btn-primary {
-    background-color: #1B3268 !important;
-    border-color: #1B3268 !important;
+.step2 .btn-primary {
+    background-color: #C73450 !important;
+    border-color: #C73450 !important;
 }
 
-.btn-primary:hover {
-    background-color: #1B3268 !important;
-    border-color: #1B3268 !important;
+.step2 .btn-primary:hover {
+    background-color: #C73450 !important;
+    border-color: #C73450 !important;
 }
 
-.btm_view {
+.step2 .btm_view {
     width: 100%;
     height: 50px;
-    background-color: #1B3268;
+    background-color: #C73450;
     margin-top: 2rem;
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@
     padding-right: 20px;
 }
 
-.btm_view div {
+.step2 .btm_view div {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: bold;

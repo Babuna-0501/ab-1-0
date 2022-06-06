@@ -1,6 +1,6 @@
 .basket {
     border-top: 1px solid #DADADA;
-    padding: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +29,36 @@
 @media screen and (max-width: 800px) {
     .basket_xl {
         display: none;
+    }
+    .basket_sm--wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .basket .btm_view {
+        width: 100%;
+        height: 50px;
+        background-color: #C73450;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .basket_sm .btm_view div {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+   
     }
 }
 

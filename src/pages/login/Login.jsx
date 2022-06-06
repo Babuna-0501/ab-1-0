@@ -23,10 +23,10 @@ const Login = () => {
                 </Form.Text>
             </Form.Group>
             <div className="form_idx">
-                <Button className="btn_form" variant="primary" type="submit">
+                <Button className="btn_form" type="submit">
                     Нэвтрэх
                 </Button>
-                <Button className="btn_form" variant="primary" type="submit">
+                <Button className="btn_form" type="submit">
                     facebook-ээр нэвтрэх
                 </Button>
             </div>
