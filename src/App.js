@@ -20,10 +20,10 @@ function App() {
   
   return (
     <Router>
-       <Route path="/login"> 
-              <Login/> 
-      </Route>
-        <div className=''>
+        <Route path="/login"> 
+          <Login/> 
+        </Route>
+        <div>
         <Navbar/>
           <Switch>
             <Route exact path="/">

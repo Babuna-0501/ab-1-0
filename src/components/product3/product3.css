@@ -5,34 +5,6 @@
     margin-top: 3.505vw;
 }
 
-@media screen and (min-width: 800px) {
-    .product3 {
-        width: 438px;
-        height: 438px;
-        margin-top: 30px;
-    }
-    .product3 img{
-        width: 238px;
-        height: 238px;
-    }
-
-    .product3 .new {
-        font-size: 20px;
-        height: 40px;
-    }
-    .product3 .brand {
-        height: 40px;
-        margin-top: -30px;
-    }
-    .product3 .detail {
-        font-size: 25px;
-    }
-
-    .product3 .price {
-        font-size: 20px;
-    }
-}
-
 .product3 .discount {
     height: 4.673vw;
     background-color: #C73450;
@@ -94,4 +66,38 @@ a:hover, a:visited, a:link, a:active
 
 .old_price {
     text-decoration: line-through;  color:grey;
+}
+
+
+@media screen and (min-width: 800px) {
+    .product3 {
+        width: 438px;
+        height: 438px;
+        margin-top: 30px;
+    }
+    .product3 .img{
+        width: 238px;
+        height: 238px;
+        margin-bottom: 60px;
+    }
+
+    .product3 .new {
+        font-size: 20px;
+        height: 40px;
+    }
+    .product3 .brand {
+        height: 40px;
+        margin-top: -30px;
+    }
+    .product3 .detail {
+        font-size: 25px;
+    }
+
+    .product3 .price {
+        font-size: 20px;
+    }
+    .product3 .discount {
+        height: 40px;
+        font-size: 20px;
+    }
 }

@@ -69,6 +69,7 @@
     .basket_xl {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .basket_xl--left {
         display: flex;
@@ -110,5 +111,67 @@
     }
     .dtl_info {
         width: 400px;
+    }
+    .basket_xl--right {
+        width: 600px;
+        height: 590px;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+        padding: 100px 54px;
+        display: flex;
+        flex-direction: column;
+    }
+    .basket_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .basket_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .basket_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    .basket_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 57px;
+    }
+    .basket_xl--right--mid {
+        border-top: 1px solid #DADADA;
+        padding-top: 30px;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .basket_xl--right--btns {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 20px;
+    }
+    .btn-general {
+        width: 490px;
+        height: 61px;
+        border-radius: 50px;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    .btn-green {
+        background-color: #BCDA83;
+        color: #000;
+    }
+    .btn-blue {
+        background-color: #1B3268;
+        color: #fff;
     }
 }

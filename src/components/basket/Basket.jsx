@@ -65,7 +65,17 @@ const Basket = () => {
             </div>
           </div>
           <div className='basket_xl--right'>
-
+              <div className='basket_xl--right--top'>
+                <div><span>Нийт дүн:</span>    <span>319,900₮</span></div>  
+                <div><span>Нийт хөнгөлөлт:</span>  <span>-319,900₮</span></div>
+              </div>
+              <div className='basket_xl--right--mid'>
+                Таны бараа 2 өдөрт хүргэгдэнэ. Зарим тохиолдолд хүргэлт хийх хугацаа өөр байх боломжтойг анхаарна уу.
+              </div>
+              <div className='basket_xl--right--btns'>
+                  <button className='btn-general btn-green'>ЗЭЭЛЭЭР АВАХ</button>
+                  <button className='btn-general btn-blue'>ХУДАЛДАН АВАХ</button>
+              </div>
           </div>
        </div>
     </div>

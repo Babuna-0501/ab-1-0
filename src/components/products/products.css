@@ -27,6 +27,7 @@ div {
     font-size: 58px;
     font-weight: 500;
     margin-top: 60px;
+    font-weight: 600;
 } 
 
 @media screen and (max-width: 800px) {
@@ -65,5 +66,9 @@ div {
     }
     .products div div ul li a {
         padding: 20px !important;
+    }
+    .products ul {
+       display: flex;
+       justify-content: center;
     }
 }

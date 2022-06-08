@@ -19,7 +19,7 @@ const Products = () => {
             className='product_tab_inner'
             >
             <Tabs.Tab id="tab1" title="Цахилгаан бараа">
-                <div className='prod-wrapper' style={{ padding: 10 }}><Product/><Product2/><Product4/><Product3/></div>
+                <div className='prod-wrapper' style={{ padding: 10 }}><Product/><Product2/><Product4/><Product3/><Product/><Product2/><Product4/><Product3/></div>
             </Tabs.Tab>
             <Tabs.Tab id="tab2" title="Гар утас">
                 <div className='prod-wrapper' style={{ padding: 10 }}><Phone/><Watch/><Watch/></div>
