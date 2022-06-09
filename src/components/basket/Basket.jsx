@@ -82,4 +82,4 @@ const Basket = () => {
   )
 }
 
-export default Basket
+export default Basket;

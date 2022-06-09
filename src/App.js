@@ -15,6 +15,7 @@ import ProductList from './components/productList/productList'
 import Loan from './components/purchase/loan/loan';
 import Condition from './components/purchase/condition/condition'
 import Find from './components/find/find';
+import Footer from './components/footer/footer';
 
 function App() {
   
@@ -69,6 +70,7 @@ function App() {
               <Condition/> 
             </Route>
           </Switch>
+          <Footer/>
         </div>
     </Router>
   );

@@ -1,0 +1,80 @@
+@media screen and (min-width: 800px) {
+    .total {
+        width: 681px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F7F7;
+        padding: 60px 50px;
+        border-radius: 30px;
+    }
+    .total .total_xl--right .total_xl--right--mid div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .total_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .total_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .total_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    .total_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 57px;
+    }
+    .total .total_xl--right .total_xl--right--mid {
+        border-top: 1px solid #DADADA;
+        border-bottom: 1px solid #DADADA !important;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .total .total_xl--right .total_xl--right--mid img {
+        width: 70px;
+    }
+    .total .total_xl--right .total_xl--right--mid span {
+        max-width: 180px;
+    }
+    .total .total_xl--right .total_xl--right--mid h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .total .total_xl--right .total_xl--right--mid p {
+        margin-bottom: 0.5rem;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 14px;
+    }
+    .total .total_xl--right .total_xl--right--mid .snd {
+        margin-top: 3rem;
+    }
+    .total_xl--right--btns {
+        margin-top: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .total_xl--right--btns .btn-total {
+        width: 490px;
+        height: 61px;
+        background-color: #1B3268;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 30px;
+    }
+}

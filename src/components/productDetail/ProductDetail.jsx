@@ -9,12 +9,10 @@ import Img3 from '../../assets/prod_example_img3.webp'
 import Img4 from '../../assets/prod_example_img4.webp'
 import Img5 from '../../assets/prod_example_img5.png'
 import Brand from '../../assets/Samsung-Symbol.svg'
-import Simple from '../../assets/simple_s.png'
 import './productDetail.css'
 import { Link } from 'react-router-dom';
 import Product from "../product/Product";
 import Product2 from "../product2/product2";
-import Footer from "../footer/footer";
  
 
 function ProductDetail({id, brand, price, desc, category, image }) {
@@ -98,7 +96,6 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 }

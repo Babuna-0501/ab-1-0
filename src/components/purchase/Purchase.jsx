@@ -1,6 +1,7 @@
 import './purchase.css'
 import { Tabs } from "@yazanaabed/react-tabs";
 import { Form, Button } from 'react-bootstrap'
+import Total from '../total/total';
 
 const Purchase = () => {
   return (
@@ -12,7 +13,7 @@ const Purchase = () => {
             >
             <Tabs.Tab id="tab1" title="Хувь хүн" className='tab1' >
                 <div className='tab1_wrapper'>
-                    <Form>
+                    <Form className='form_xl'>
                         <Form.Group className="mb-3" controlId="formBasicText">
                             <Form.Label className='lbl_txt' style={{color:"#909090"}}>Нэр</Form.Label>
                             <Form.Control type="text" />
@@ -50,7 +51,7 @@ const Purchase = () => {
             </Tabs.Tab>
             <Tabs.Tab id="tab2" title="Албан байгууллага">
                 <div className='tab2_wrapper'>
-                    <Form>
+                    <Form className='form_xl'>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label style={{color:"#909090"}}>Байгууллагын нэр</Form.Label>
                             <Form.Control type="text" />
@@ -89,6 +90,8 @@ const Purchase = () => {
                 </div>
             </Tabs.Tab>
         </Tabs>
+
+        <Total/>
     </div>
   )
 }
