@@ -76,6 +76,8 @@ a:hover, a:visited, a:link, a:active
     .product4 .img{
         width: 238px;
         height: 238px;
+        padding-top: 75px;
+        margin-bottom: 90px;
     }
 
     .product4 .new {

@@ -62,10 +62,10 @@
     border-color: #fff;
 }
 
-.login textarea:hover, textarea:active, input:active , textarea:focus, input:focus {
+/* .login textarea:hover, textarea:active, input:active , textarea:focus, input:focus {
     background-color: #404040 !important;
     color: #fff;
-}
+} */
 
 @media screen and (min-width: 800px) {
     .login {

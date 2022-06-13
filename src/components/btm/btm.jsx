@@ -12,7 +12,7 @@ const btm = () => {
                 id: "tab1"
             }}
             >
-            <Tabs.Tab id="tab1" title="Цахилгаан бараа">
+            <Tabs.Tab id="tab1" title="Угаалгын машин">
                 <div className='prod-wrapper' style={{ padding: 10 }}>
                     <div>
                         <img className='img_inner' src={img1} alt="" />
@@ -22,14 +22,14 @@ const btm = () => {
                     </div>
                 </div>
             </Tabs.Tab>
-            <Tabs.Tab id="tab2" title="Гар утас">
+            <Tabs.Tab id="tab2" title="Тоос сорогч">
                 <div className='prod-wrapper' style={{ padding: 10 }}>
                     <div>
                         <img className='img_inner' src={img1} alt="" />
                     </div>
                 </div>
             </Tabs.Tab>
-            <Tabs.Tab id="tab3" title="Компьютер">
+            <Tabs.Tab id="tab3" title="Индүү">
                 <div className='prod-wrapper' style={{ padding: 10 }}>
                     <div>
                         <img className='img_inner' src={img1} alt="" />

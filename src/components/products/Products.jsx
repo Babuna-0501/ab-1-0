@@ -25,7 +25,7 @@ const Products = () => {
                 <div className='prod-wrapper' style={{ padding: 10 }}><Phone/><Watch/><Watch/></div>
             </Tabs.Tab>
             <Tabs.Tab id="tab3" title="Компьютер">
-                <div className='prod-wrapper' style={{ padding: 10 }}>This is tab 3</div>
+                <div className='prod-wrapper' style={{ padding: 10 }}><Phone/><Watch/><Watch/></div>
             </Tabs.Tab>
         </Tabs>
     </div>

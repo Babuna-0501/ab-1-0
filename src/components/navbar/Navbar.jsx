@@ -4,7 +4,7 @@ import Logo from '../../assets/ABMALL.svg'
 import Basket from '../../assets/basket.svg'
 import Search1 from '../../assets/search.svg'
 import Menu from '../menu/menu'
-import { Modal, Button } from 'react-bootstrap';
+import { Modal, Button, Form } from 'react-bootstrap';
 import { useState } from 'react';
 import Find from '../find/find';
 import Empty from '../../assets/empty.png'

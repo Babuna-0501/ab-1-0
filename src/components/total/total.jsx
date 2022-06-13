@@ -7,8 +7,8 @@ const Total = () => {
     <div className='total'>
         <div className='total_xl--right'>
             <div className='total_xl--right--top'>
-                <div><span>Нийт дүн:</span>    <span>319,900₮</span></div>  
-                <div><span>Нийт хөнгөлөлт:</span>  <span>-319,900₮</span></div>
+                <div><span>Нийт дүн:</span>    <span className='total_price--lg'>319,900₮</span></div>  
+                <div><span>Нийт хөнгөлөлт:</span>  <span className='total_price--lg'>-319,900₮</span></div>
                 </div>
             <div className='total_xl--right--mid'>
                 <div>
@@ -23,8 +23,8 @@ const Total = () => {
                     <span>
                         x <span>1</span>
                     </span>
-                    <div>319,900₮</div>
-                    <div>639,800₮</div>
+                    <div className='total_price--lg'>319,900₮</div>
+                    <div className='total_price--lg'>639,800₮</div>
                 </div>
                 <div className='snd'>
                     <span><img src={Img2} alt="lazy" /></span>
@@ -36,8 +36,8 @@ const Total = () => {
                     <span>
                         x <span>1</span>
                     </span>
-                    <div>1,899,900₮</div>
-                    <div>639,800₮</div>
+                    <div className='total_price--lg'>1,899,900₮</div>
+                    <div className='total_price--lg'>639,800₮</div>
                 </div>
             </div>
             <div className='total_xl--right--btns'>

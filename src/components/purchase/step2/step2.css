@@ -81,3 +81,13 @@
     text-align: left;
     color: #fff;
 }
+
+.step2 .lbl-wrapper .form-check input {
+    position: absolute;
+    left: 90%;
+}
+.step2 .lbl-wrapper .form-check label {
+    position: absolute;
+    width: 82%;
+    height: 10vw;
+}

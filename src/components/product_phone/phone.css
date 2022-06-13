@@ -1,19 +1,16 @@
-.phone {
-    width: 40.888vw;
-    height: 49.065vw;
-    background-color: #F4F4F4;
-    margin-top: 3.505vw;
-}
+
 
 @media screen and (min-width: 800px) {
     .phone {
         width: 438px;
         height: 438px;
         margin-top: 30px;
+        background-color: #F4F4F4;
     }
     .phone img{
         width: 238px;
         height: 238px;
+        margin-bottom: 2rem;
     }
 
     .phone .new {
@@ -33,63 +30,74 @@
     }
 }
 
-.new {
-    height: 4.673vw;
-    background-color: #B9D986;
-    width: 100%;
-    color: #000;
-    font-size: 2.336vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.phone .img {
-    width: 28.037vw;
-    height: 28.037vw;
-    object-fit: contain;
-    margin-left: auto;
-    display: flex;
-    margin-right: auto;
-    padding-top: 5vw;
-    margin-bottom: 5.1vw;
+@media screen and (max-width: 800px) {
+    .phone {
+        width: 40.888vw;
+        height: 49.065vw;
+        background-color: #F4F4F4;
+        margin-top: 3.505vw;
+        background-color: #F4F4F4;
+    }
+    .new {
+        height: 4.673vw;
+        background-color: #B9D986;
+        width: 100%;
+        color: #000;
+        font-size: 2.336vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .phone .img {
+        width: 28.037vw;
+        height: 28.037vw;
+        object-fit: contain;
+        margin-left: auto;
+        display: flex;
+        margin-right: auto;
+        padding-top: 5vw;
+        margin-bottom: 5.1vw;
+    }
+    
+    .phone a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .brand {
+        margin-top: -2.804vw;
+        margin-left: auto;
+        display: flex;
+        margin-right: auto;
+    }
+    
+    .detail {
+        font-family: Montserrat;
+        font-size: 2.804vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+    
+    .price {
+        font-family: Montserrat;
+        font-size: 2.336vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #646464;
+    }
+    
+    a:hover, a:visited, a:link, a:active
+    {
+        text-decoration: none;
+    }
 }
 
-.phone a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
 
-.brand {
-    margin-top: -2.804vw;
-    margin-left: auto;
-    display: flex;
-    margin-right: auto;
-}
-
-.detail {
-    font-family: Montserrat;
-    font-size: 2.804vw;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
-}
-
-.price {
-    font-family: Montserrat;
-    font-size: 2.336vw;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #646464;
-}
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
 

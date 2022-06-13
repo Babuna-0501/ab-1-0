@@ -4,6 +4,7 @@ import Img1 from '../../assets/samsung_vc_xl.png'
 import Img2 from '../../assets/wsh_xl.png'
 import Inc from '../inc/inc'
 import Samsung from '../../assets/Samsung-Symbol.svg'
+import { Link } from 'react-router-dom'
 
 const Basket = () => {
   return (
@@ -74,7 +75,7 @@ const Basket = () => {
               </div>
               <div className='basket_xl--right--btns'>
                   <button className='btn-general btn-green'>ЗЭЭЛЭЭР АВАХ</button>
-                  <button className='btn-general btn-blue'>ХУДАЛДАН АВАХ</button>
+                  <button className='btn-general btn-blue'><Link to='/product/purchase'>ХУДАЛДАН АВАХ</Link></button>
               </div>
           </div>
        </div>

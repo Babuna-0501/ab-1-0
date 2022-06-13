@@ -12,7 +12,7 @@
     height: 50px;
     border-radius: 50px;
     border: unset;
-    background-color: #F7F7F7 !important;
+    /* background-color: #F7F7F7 !important; */
     display: flex;
     margin-left: auto;
     margin-right: auto;

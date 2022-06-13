@@ -12,7 +12,7 @@
     width: 80%;
     height: 50px;
     border: unset;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -26,9 +26,9 @@
     margin-left: 1rem;
 }
 
-.find .find_wrapper textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+/* .find .find_wrapper textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
     background-color: #fff !important;
-}
+} */
 
 .find ul {
     width: 80%;

@@ -35,15 +35,26 @@
     padding-right: 1.5rem;
 }
 
-.purchase textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+/* .purchase textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
     background-color: #fff !important;
-}
+} */
 
 
+/* @media screen and (min-width: 1921px) {
+    .purchase {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
 @media screen and (min-width: 800px) {
     .purchase {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
     .purchase .tab1_wrapper .form_xl {
         display: grid;

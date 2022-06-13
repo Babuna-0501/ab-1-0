@@ -70,7 +70,6 @@ function App() {
               <Condition/> 
             </Route>
           </Switch>
-          <Footer/>
         </div>
     </Router>
   );
