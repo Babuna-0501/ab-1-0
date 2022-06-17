@@ -5,16 +5,53 @@
     margin-top: 3.505vw;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and  (max-width: 1920px)  {
     .product {
+        width: 22.813vw;
+        height: 22.813vw;
+        margin-top: 0;
+    }
+    .product .img{
+        width: 12.396vw;
+        height: 12.396vw;
+        margin-bottom: 3.125vw;
+        padding-top: 1.563vw;
+    }
+
+    .product .new {
+        font-size: 1.042vw;
+        height: 2.083vw;
+    }
+    .product .brand {
+        height: 3.229vw;
+        position: relative;
+        top: 0.677vw;
+        margin-top: -3.125vw;
+    }
+    .product .detail {
+        font-size: 1.302vw;
+    }
+
+    .product .price {
+        font-size: 1.042vw;
+    }
+    .product .discount {
+        height: 2.083vw;
+        font-size: 1.042vw;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .product {
+        margin-top: 0;
         width: 438px;
         height: 438px;
-        margin-top: 30px;
     }
-    .product img{
+    .product .img{
+        margin-bottom: 60px;
+        padding-top: 30px;
         width: 238px;
         height: 238px;
-        margin-bottom: 30px;
     }
 
     .product .new {
@@ -22,14 +59,20 @@
         height: 40px;
     }
     .product .brand {
-        height: 40px;
-        margin-top: -30px;
+        height: 62px;
+        position: relative;
+        top: 13px;
+        margin-top: -60px;
     }
     .product .detail {
         font-size: 25px;
     }
 
     .product .price {
+        font-size: 20px;
+    }
+    .product .discount {
+        height: 40px;
         font-size: 20px;
     }
 }

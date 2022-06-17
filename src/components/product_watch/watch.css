@@ -1,14 +1,52 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and  (max-width: 1920px)  {
     .watch {
+        width: 22.813vw;
+        height: 22.813vw;
+        margin-top: 0;
+        background-color: #f4f4f4;
+    }
+    .watch .img{
+        width: 12.396vw;
+        height: 12.396vw;
+        margin-bottom: 3.125vw;
+        padding-top: 1.563vw;
+    }
+
+    .watch .new {
+        font-size: 1.042vw;
+        height: 2.083vw;
+    }
+    .watch .brand {
+        height: 3.229vw;
+        position: relative;
+        top: 0.677vw;
+        margin-top: -1.125vw;
+    }
+    .watch .detail {
+        font-size: 1.302vw;
+    }
+
+    .watch .price {
+        font-size: 1.042vw;
+    }
+    .watch .discount {
+        height: 2.083vw;
+        font-size: 1.042vw;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .watch {
+        margin-top: 0;
         width: 438px;
         height: 438px;
-        margin-top: 30px;
-        background-color: #F4F4F4;
+        background-color: #f4f4f4;
     }
-    .watch img{
+    .watch .img{
+        margin-bottom: 60px;
+        padding-top: 30px;
         width: 238px;
         height: 238px;
-        margin-bottom: 2rem;
     }
 
     .watch .new {
@@ -16,14 +54,20 @@
         height: 40px;
     }
     .watch .brand {
-        height: 40px;
-        margin-top: -30px;
+        height: 62px;
+        position: relative;
+        top: 13px;
+        margin-top: -20px;
     }
     .watch .detail {
         font-size: 25px;
     }
 
     .watch .price {
+        font-size: 20px;
+    }
+    .watch .discount {
+        height: 40px;
         font-size: 20px;
     }
 }

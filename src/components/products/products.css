@@ -1,6 +1,7 @@
 .products a {
     /* padding: 4vw !important; */
     font-size: 2.804vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .products div div ul li a {
@@ -26,7 +27,8 @@ div {
     font-family: 'Montserrat', sans-serif;
     font-size: 58px;
     font-weight: 500;
-    margin-top: 60px;
+    margin-top: 57px;
+    margin-bottom: 34px;
     font-weight: 600;
 } 
 
@@ -49,26 +51,70 @@ div {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 3.505vw;
-    margin-right: 3.505vw;
+    margin-left: 6.505vw;
+    margin-right: 6.505vw;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
     .prod-wrapper {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 25px;
         justify-content: center;
         gap: 33px;
         max-width: 1920px;
+        display: grid;
+        grid-template-columns: repeat(4, 438px);
     }
     .products a {
         font-size: 24px;
     }
     .products div div ul li a {
-        padding: 20px !important;
+        padding: 8px 37px !important;
+        opacity: 1 !important;
     }
     .products ul {
        display: flex;
        justify-content: center;
     }
+    #id1 {
+        background-color: #000;
+    }
+}
+@media screen and (min-width: 800px) and  (max-width: 1920px) {
+    .prod-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.302vw;
+        justify-content: center;
+        gap: 1.719vw;
+        max-width: 1920px;
+        display: grid;
+        grid-template-columns: repeat(4, 22.813vw);
+    }
+    .products a {
+        font-size: 1.250vw;
+    }
+    .products div div ul li a {
+        padding: 0.417vw 1.927vw !important;
+        opacity: 1 !important;
+    }
+    .products ul {
+       display: flex;
+       justify-content: center;
+    }
+    #id1 {
+        background-color: #000;
+    }
+    .products h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.021vw;
+        font-weight: 500;
+        margin-top: 2.969vw;
+        margin-bottom: 1.771vw;
+        font-weight: 600;
+    } 
 }

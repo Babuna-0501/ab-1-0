@@ -5,6 +5,8 @@
 .carousel {
     position: absolute;
     width: 420px;
+    max-height: 851px;
+    height: auto;
 }
 
 .carousel .slide picture img {
@@ -23,5 +25,62 @@
     }
     .carousel .slide picture img {
         object-fit: contain;
+    }
+} 
+@media screen and (min-width: 1921px) {
+    .banner .carousel .control-dots {
+        bottom: 5%;
+    }
+    .hero_btn {
+        position: absolute;
+        z-index: 10;
+        width: 131px;
+        height: 49px;
+        padding: 13px 44px 16px 43px;
+        border-radius: 24px;
+        background-color: #fff;
+        top: 50%;
+        left: 6.2%;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 17px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 800px) and  (max-width: 1920px) {
+    .banner .carousel .control-dots {
+        bottom: 5%;
+    }
+    .hero_btn {
+        position: absolute;
+        z-index: 10;
+        width: 6.823vw;
+        height: 2.552vw;
+        padding: 0.677vw 2.292vw 0.833vw 2.240vw;
+        border-radius: 1.250vw;
+        background-color: #fff;
+        top: 50%;
+        left: 6.2%;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 0.885vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .hero_btn {
+        display: none;
     }
 }

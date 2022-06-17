@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
             <div className='search_xl'>
               <>
-                <img src={Search1} alt="" onClick={() => setModalShow(true)}/>
+                <img className='search_img--xl' src={Search1} alt="" onClick={() => setModalShow(true)}/>
                 <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
@@ -91,14 +91,14 @@ const Navbar = () => {
             </div>
             <div className='basket_xl'>
                 <>
-                <img src={Basket} alt="" onClick={() => setModalShow2(true)}/>
+                <img className='basket_img--xl' src={Basket} alt="" onClick={() => setModalShow2(true)}/>
                 <MyVerticallyCenteredModal2
                   show={modalShow2}
                   onHide={() => setModalShow2(false)}
                 />
               </>
             </div>
-            <div>
+            <div className='menu_sp'>
               <Menu/>
             </div>
         </div>

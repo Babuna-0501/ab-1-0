@@ -7,6 +7,7 @@
     width: 160px;
     height: 40px;
     border-radius: 30px;
+    margin-top: 16px;
 }
 
 .inc button {
@@ -28,4 +29,39 @@
     display: flex;
     font-size: 20px;
     margin-top: auto;
+}
+
+@media screen and (min-width: 800px) and  (max-width: 1920px) {
+    .inc {
+        display: flex;
+        flex-direction: row !important;
+        border: 1px solid #DADADA;
+        border-bottom: 1px solid #DADADA !important;
+        justify-content: center;
+        width: 8.333vw;
+        height: 2.083vw;
+        border-radius: 1.563vw;
+        margin-top: 0.833vw;
+    }
+    
+    .inc button {
+        width: 2.604vw;
+        border: none;
+    }
+    .inc button:first-of-type  {
+        border-bottom-left-radius: 1.563vw;
+        border-top-left-radius: 1.563vw;
+    }
+    .inc button:last-of-type  {
+        border-bottom-right-radius: 1.563vw;
+        border-top-right-radius: 1.563vw;
+    }
+    .inc h1 {
+        width: 3.646vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 1.042vw;
+        margin-top: auto;
+    }
 }

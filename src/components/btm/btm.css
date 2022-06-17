@@ -1,21 +1,54 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
     .btm {
         width: 100%;
         background-image: linear-gradient(to bottom, #92c4ea, #bcda7b);
         margin-top: 50px;
     
     }
-    
+    .btm a {
+        font-size: 24px;
+        color: #fff !important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .btm div div ul li a {
+        padding: 15px 37px 8px!important;
+        opacity: 1 !important;
+    }
     .btm h2 {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 58px;
+        font-size: 61px;
         color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 50px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: -1px;
+        padding-top: 65px;
+        padding-left: 17px;
     }
-    
+    .btm h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 57px;
+        color: #fff;
+        padding-top: 50px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        padding-top: 42px;
+        padding-left: 0;
+    }
+    .btm .wrapper_one {
+        margin-top: 35px;
+    }
     .btm .tabb {
         width: 500px;
         display: flex;
@@ -37,12 +70,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40vw;
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 27px;
         line-height: 1.5em;
+        letter-spacing: -0.2px;
     }
     .btm .btn{
         width: 131px;
@@ -54,6 +88,7 @@
         display: flex;
         padding: 10px;
         padding-left: 44px;
+        font-weight: 700;
     }
     .btm .tabb ul{
        display: flex;
@@ -71,7 +106,7 @@
         font-family: 'Montserrat', 'sans-serif';
     }
     .btm .img_inner {
-        width: 74.5vw;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -108,3 +143,100 @@
     }
 }
 
+@media screen and (min-width: 800px) and  (max-width: 1920px) {
+    .btm {
+        width: 100%;
+        background-image: linear-gradient(to bottom, #92c4ea, #bcda7b);
+        margin-top: 2.604vw;
+    
+    }
+    .btm a {
+        font-size: 1.250vw;
+        color: #fff !important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .btm div div ul li a {
+        padding: 0.781vw 1.927vw 0.417vw !important;
+        opacity: 1 !important;
+    }
+    .btm h2 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 3.177vw;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.604vw;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: -0.052vw;
+        padding-top: 3.385vw;
+        padding-left: 0.885vw;
+    }
+    .btm h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 2.969vw;
+        color: #fff;
+        padding-top: 2.604vw;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        padding-top: 2.188vw;
+        padding-left: 0;
+    }
+    .btm .wrapper_one {
+        margin-top: 1.823vw;
+    }
+    .btm .tabb {
+        width: 26.042vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btm .img_inner {
+        width: 51.406vw;
+        height: 28.802vw;
+    }
+    
+    .btm h5 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 31.250vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1.406vw;
+        line-height: 1.5em;
+        letter-spacing: -0.010vw;
+    }
+    .btm .btn{
+        width: 6.823vw;
+        height: 2.552vw;
+        margin: 2.188vw auto;
+        border-radius: 1.250vw;
+        background-color: #fff;
+        font-size: 0.885vw;
+        display: flex;
+        padding: 0.521vw;
+        padding-left: 2.292vw;
+        font-weight: 700;
+    }
+    .btm .tabb ul{
+       display: flex;
+       justify-content: center;
+    }
+}

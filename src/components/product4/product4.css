@@ -67,17 +67,53 @@ a:hover, a:visited, a:link, a:active
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and  (max-width: 1920px)  {
     .product4 {
-        width: 438px;
-        height: 438px;
-        margin-top: 30px;
+        width: 22.813vw;
+        height: 22.813vw;
+        margin-top: 0;
     }
     .product4 .img{
+        width: 12.396vw;
+        height: 12.396vw;
+        margin-bottom: 3.125vw;
+        padding-top: 1.563vw;
+    }
+
+    .product4 .new {
+        font-size: 1.042vw;
+        height: 2.083vw;
+    }
+    .product4 .brand {
+        height: 3.229vw;
+        position: relative;
+        top: 0.677vw;
+        margin-top: -3.125vw;
+    }
+    .product4 .detail {
+        font-size: 1.302vw;
+    }
+
+    .product4 .price {
+        font-size: 1.042vw;
+    }
+    .product4 .discount {
+        height: 2.083vw;
+        font-size: 1.042vw;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .product4 {
+        margin-top: 0;
+        width: 438px;
+        height: 438px;
+    }
+    .product4 .img{
+        margin-bottom: 60px;
+        padding-top: 30px;
         width: 238px;
         height: 238px;
-        padding-top: 75px;
-        margin-bottom: 90px;
     }
 
     .product4 .new {
@@ -85,14 +121,20 @@ a:hover, a:visited, a:link, a:active
         height: 40px;
     }
     .product4 .brand {
-        height: 40px;
-        margin-top: -30px;
+        height: 62px;
+        position: relative;
+        top: 13px;
+        margin-top: -60px;
     }
     .product4 .detail {
         font-size: 25px;
     }
 
     .product4 .price {
+        font-size: 20px;
+    }
+    .product4 .discount {
+        height: 40px;
         font-size: 20px;
     }
 }

@@ -1,0 +1,12 @@
+.navigation {
+    position: relative;
+    width: 100%;
+    height: 87px;
+    border-top: 1px solid #DADADA;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
+}

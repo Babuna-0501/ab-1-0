@@ -62,7 +62,12 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
+    .basket {
+        margin-left: 75px;
+        margin-top: 41px;
+        margin-right: 57px;
+    }
     .basket_sm {
         display: none;
     }
@@ -70,12 +75,14 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
     }
     .basket_xl--left {
         display: flex;
         flex-direction: column;
+        gap: 77px;
+    }
+    .logo_basket_xl_lg {
+        width: 126px;
     }
     .basket_xl--left--prod {
         display: flex;
@@ -99,8 +106,7 @@
         font-family: 'Montserrat', 'sans-serif';
         font-size: 28px;
         line-height: 26px;
-        letter-spacing: 0.1em;
-        font-weight: 600;
+        font-weight: 700;
         font-stretch: normal;
     }
     .dtl {
@@ -109,7 +115,8 @@
         font-size: 20px;
     }
     .basket_xl--left--prod:last-of-type {
-        margin-top: 50px;
+        border-top: 1px solid #dddddd;
+        padding-top: 79px;
     }
     .dtl_info {
         width: 400px;
@@ -122,11 +129,12 @@
         padding: 100px 54px;
         display: flex;
         flex-direction: column;
+        margin-top: -14px;
     }
     .basket_xl--right--top {
         display: flex;
         flex-direction: column;
-        padding-bottom: 10px;
+        padding-bottom: 23px;
     }
     .basket_xl--right--top div {
         display: flex;
@@ -136,7 +144,7 @@
     .basket_xl--right--top div:first-of-type {
         font-family: 'Montserrat', 'sans-serif';
         font-size: 28px;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 26px;
     }
     .basket_xl--right--top div:last-of-type {
@@ -147,10 +155,11 @@
     }
     .basket_xl--right--mid {
         border-top: 1px solid #DADADA;
-        padding-top: 30px;
+        padding-top: 15px;
         font-family: 'Montserrat', 'sans-serif';
         font-size: 20px;
         font-weight: 500;
+        line-height: 26px;
     }
     .basket_xl--right--btns {
         margin-top: 50px;
@@ -175,5 +184,198 @@
     .btn-blue {
         background-color: #1B3268;
         color: #fff;
+    }
+    .basket_price--lg--xl {
+        margin-left: 500px;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .basket_price--lg--xl .c-price {
+        font-size: 28px;
+    }
+    .basket_price--lg--xl .o-price {
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+    .basket2_price--lg--xl {
+        margin-left: 330px;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .basket2_price--lg--xl .c-price {
+        font-size: 28px;
+    }
+    .basket2_price--lg--xl .o-price {
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+    .delete {
+        position: relative;
+        top: 61%;
+        left: 88%;
+    }
+    .delete_img {
+        width: 20px;
+    }
+    .basket_xl--right--btns a {
+        color: #fff !important;
+    }
+}
+
+@media screen and (min-width: 800px) and  (max-width: 1920px) {
+    .basket {
+        margin-left: 75px;
+        margin-top: 41px;
+        margin-right: 57px;
+    }
+    .basket_sm {
+        display: none;
+    }
+    .basket_xl {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .basket_xl--left {
+        display: flex;
+        flex-direction: column;
+        gap: 4.010vw;
+    }
+    .logo_basket_xl_lg {
+        width: 6.563vw;
+    }
+    .basket_xl--left--prod {
+        display: flex;
+        flex-direction: row;
+        gap: 2.604vw;
+    }
+    .basket_xl--left--prod div {
+        display: flex;
+        flex-direction: column;
+    }
+    .basket_xl--left--prod .prod_img {
+        width: 7.031vw;
+        height: 7.813vw;
+    }
+    .basket_xl--left--prod .prod_img2 {
+        width: 5.729vw;
+        height: 7.813vw;
+        margin-left: 1.250vw;
+    }
+    .title {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.458vw;
+        line-height: 1.354vw;
+        font-weight: 700;
+        font-stretch: normal;
+    }
+    .dtl {
+        margin-top: 0.104vw;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        margin-left: 0.313vw;
+        line-height: 1.406vw;
+    }
+    .basket_xl--left--prod:last-of-type {
+        border-top: 1px solid #dddddd;
+        padding-top: 4.115vw;
+    }
+    .dtl_info {
+        width: 20.833vw;
+    }
+    .basket_xl--right {
+        width: 31.250vw;
+        height: 30.729vw;
+        background-color: #F7F7F7;
+        border-radius: 1.302vw;
+        padding: 5.208vw 2.813vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: -0.729vw;
+    }
+    .basket_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.198vw;
+    }
+    .basket_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .basket_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.458vw;
+        font-weight: 600;
+        line-height: 1.354vw;
+    }
+    .basket_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 500;
+        line-height: 2.969vw;
+    }
+    .basket_xl--right--mid {
+        border-top: 1px solid #DADADA;
+        padding-top: 0.781vw;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 500;
+        line-height: 1.354vw;
+    }
+    .basket_xl--right--btns {
+        margin-top: 2.604vw;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 1.042vw;
+    }
+    .btn-general {
+        width: 25.521vw;
+        height: 3.177vw;
+        border-radius: 2.604vw;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 600;
+        border: none;
+    }
+    .btn-green {
+        background-color: #BCDA83;
+        color: #000;
+    }
+    .btn-blue {
+        background-color: #1B3268;
+        color: #fff;
+    }
+    .basket_price--lg--xl {
+        margin-left: 26.042vw;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .basket_price--lg--xl .c-price {
+        font-size: 1.458vw;
+    }
+    .basket_price--lg--xl .o-price {
+        font-size: 1.042vw;
+        text-decoration: line-through;
+    }
+    .basket2_price--lg--xl {
+        margin-left: 17.188vw;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .basket2_price--lg--xl .c-price {
+        font-size: 1.458vw;
+    }
+    .basket2_price--lg--xl .o-price {
+        font-size:1.042vw;
+        text-decoration: line-through;
+    }
+    .delete {
+        position: relative;
+        top: 61%;
+        left: 88%;
+    }
+    .delete_img {
+        width:1.042vw;
+    }
+    .basket_xl--right--btns a {
+        color: #fff !important;
     }
 }

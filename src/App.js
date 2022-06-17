@@ -16,6 +16,7 @@ import Loan from './components/purchase/loan/loan';
 import Condition from './components/purchase/condition/condition'
 import Find from './components/find/find';
 import Footer from './components/footer/footer';
+import Navigation from './components/navigation/navigation';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
         </Route>
         <div>
         <Navbar/>
+        <Navigation/>
           <Switch>
             <Route exact path="/">
               <Home />

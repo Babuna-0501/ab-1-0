@@ -1,0 +1,6 @@
+.tabs__content {
+    display: grid !important;
+    grid-template-columns: repeat(4, 438px);
+    grid-gap: 30px;
+}
+

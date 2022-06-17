@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import Arrow from '../../assets/arrow_left.svg'
+import icon from '../../assets/find_icon_xl.svg'
 import './find.css';
 
 const products = [
@@ -12,12 +12,6 @@ const products = [
   "Зөөврийн компьютер",
   "Индүү",
   "Плетка",
-  "Дуков",
-  "Печь",
-  "Хиншүү сорогч",
-  "Аяга таваг угаагч",
-  "Угаалгын машин",
-  "Тоос сорогч"
 ];
 
 const Find = () => {
@@ -37,6 +31,7 @@ const Find = () => {
   return (
     <div className="find">
         <div className="find_wrapper">   
+        <img src={icon} alt="lazy" />
             <input
                 type="text"
                 value={searchTerm}
