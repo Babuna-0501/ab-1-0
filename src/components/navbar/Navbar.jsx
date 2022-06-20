@@ -8,6 +8,7 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { useState } from 'react';
 import Find from '../find/find';
 import Empty from '../../assets/empty.png'
+import Contact from '../../assets/contact.svg'
 
 // function* getStockValue() {
 //   var entry1 = yield request('http://myrl.com/stock/key');
@@ -68,14 +69,23 @@ const Navbar = () => {
   const [modalShow2, setModalShow2] = useState(false);
   return (
     <div className='navbar-ab'>
-        <div className='left'><Link to="/"><img className='logo' src={Logo} /> </Link></div>
+        <div className='left'><Link to="/"><img className='logo' src={Logo} /> </Link>
+          <div className='left_search--xl'>
+            <form class="search-container">
+              <input type="text" id="search-bar" placeholder="What can I help you with today?"/>
+              <a href="#">
+                {/* <img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"/> */}
+              </a>
+            </form>
+          </div>
+        </div>
         <div className='right'>
             <div className='search_sm'>
                 <Link to="/search">
                   <img src={Search1} alt="" />
                 </Link>
             </div>
-            <div className='search_xl'>
+            {/* <div className='search_xl'>
               <>
                 <img className='search_img--xl' src={Search1} alt="" onClick={() => setModalShow(true)}/>
                 <MyVerticallyCenteredModal
@@ -83,13 +93,14 @@ const Navbar = () => {
                   onHide={() => setModalShow(false)}
                 />
               </>
-            </div>
+            </div> */}
             <div className='basket_sm'>
               <Link to="/basket">
                 <img src={Basket} alt="" />
               </Link>
             </div>
             <div className='basket_xl'>
+              <div className='phone_wrapper'>+976 79997000</div>
                 <>
                 <img className='basket_img--xl' src={Basket} alt="" onClick={() => setModalShow2(true)}/>
                 <MyVerticallyCenteredModal2
@@ -97,6 +108,7 @@ const Navbar = () => {
                   onHide={() => setModalShow2(false)}
                 />
               </>
+              <div className='contact_wrapper'><img className='contact_wrapper--img' src={Contact} alt="" /></div>
             </div>
             <div className='menu_sp'>
               <Menu/>
