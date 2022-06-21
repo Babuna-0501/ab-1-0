@@ -5,13 +5,14 @@
 }
 
 .purchase .lbl_txt {
-    font-size: 12px;
+    font-size: 20px;
     font-family: Montserrat;
 }
  
 .purchase div div ul li a {
-    font-size: 12px;
+    font-size: 20px;
     font-family: Montserrat;
+    opacity: 1 !important;
 }
 .purchase .tabOne {
     background-color: black !important;

@@ -1,9 +1,9 @@
-.about {
+.news {
     padding: 30px;
     font-family: Montserrat;
 }
 
-.about h2 {
+.news h2 {
     font-size: 18px;
     font-weight: 500;
     font-stretch: normal;
@@ -14,7 +14,7 @@
     color: #000;
 }
 
-.about h4 {
+.news h4 {
     margin-top: 30px;
     font-weight: 600;
     line-height: 20px;
@@ -22,14 +22,14 @@
     text-align: left;
 }
 
-.about p {
+.news p {
     font-weight: 400;
     line-height: 20px;
     font-size: 12px;
     text-align: left;
 }
 
-.about li {
+.news li {
     font-weight: 400;
     line-height: 20px;
     font-size: 12px;
@@ -39,52 +39,60 @@
 
 
 @media screen and (min-width: 800px) {
-    .about .about_pc_xl {
+    .news .news_pc_xl {
         width: 100%;
         height: auto;
     }
 
-    .about h2 {
+    .news h2 {
         margin-top: 50px;
         font-size: 40px;
         font-weight: 600;
     }
-    .about {
+
+    .news h4 {
+        font-size: 20px;
+        font-weight: bold;
+    } 
+
+    .news p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        font-weight: 500;
+    }
+
+    .news li {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+
+    .news {
         padding: 0;
     }
-    .about .about__wrapper {
+    .news .news__wrapper {
         padding-left: 100px;
         padding-right: 100px;
         margin-bottom: 100px;
         max-width: 1920px;
+        display: flex;
+        justify-content: space-between;
     }
-    .about h4 {
-        margin-top: 30px;
-        font-weight: 600;
-        line-height: 20px;
-        font-size: 20px;
-        text-align: left;
+    .news .news__wrapper  .banner_wrapper {
+        margin-top: 179px;
     }
-    
-    .about p {
-        font-weight: 400;
-        line-height: 28px;
-        font-size: 20px;
-        text-align: left;
-        font-weight: 500;
+    .news .news__wrapper  .banner_wrapper img {
+        width: 819px;
     }
-    
-    .about li {
-        font-weight: 400;
-        line-height: 28px;
-        font-size: 20px;
-        text-align: left;
-        font-weight: 500;
+    .news__wrapper--inner {
+        width: 745px;
     }
+
 }
 
 @media screen and (max-width: 800px) {
-    .about .about_pc_xl {
+    .news .news_pc_xl {
        display: none;
     }
 }

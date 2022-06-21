@@ -34,171 +34,7 @@ const Step2 = () => {
 
   return (
     <div className="step2">
-        {/* <form onSubmit={handleSubmit}>
-            <Form.Group controlId="kindOfStand">
-            <div className="lbl-wrapper">     
-            <img className="step2-icon" src={wallet} alt="" /> 
-            <p>Дансаар шилжүүлэх </p> 
-                <Form.Check
-                value="Дансаар шилжүүлэх"
-                type="radio"
-                aria-label="radio 1"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Дансаар шилжүүлэх"}
-                >
-                    <ByAccount/>
-                </Form.Check>
-            </div>
-            <div className="lbl-wrapper">     
-            <img className="step2-icon" src={HHbank} alt="" /> 
-            <p>Худалдаа хөгжлийн банк</p> 
-                <Form.Check
-                value="ХХБ"
-                type="radio"
-                aria-label="radio 2"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "ХХБ"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-            <img className="step2-icon" src={Mm} alt="" /> 
-            <p>Most Money</p> 
-                <Form.Check
-                value="Most"
-                type="radio"
-                aria-label="radio 3"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Most"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={Store} alt="" /> 
-                <p>Store Pay</p> 
-                <Form.Check
-                value="Store"
-                type="radio"
-                aria-label="radio 4"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Store"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
-                <p>Simple.mn</p> 
-                <Form.Check
-                value="Simple"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Simple"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
-                <p>Social Pay</p> 
-                <Form.Check
-                value="SP"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "SP"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={Xaan} alt="" /> 
-                <p>Хаан Банк</p> 
-                <Form.Check
-                value="khaan"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "khaan"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={Statebank} alt="" /> 
-                <p>Төрийн Банк</p> 
-                <Form.Check
-                value="Tur"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Tur"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={Ub} alt="" /> 
-                <p>Улаанбаатар Хотын Банк</p> 
-                <Form.Check
-                value="UB"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "UB"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
-                <p>Meme</p> 
-                <Form.Check
-                value="Meme"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Meme"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
-                <p>Pocket</p> 
-                <Form.Check
-                value="Pocket"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Pocket"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={wallet} alt="" /> 
-                <p>Mongol Chat</p> 
-                <Form.Check
-                value="Mongol Chat"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Mongol Chat"}
-                />
-            </div>
-            <div className="lbl-wrapper">     
-                <img className="step2-icon" src={Xacbank} alt="" style={{borderRadius:"5px"}} /> 
-                <p>Xac Банк</p> 
-                <Form.Check
-                value="Xac Банк"
-                type="radio"
-                aria-label="radio 5"
-                label=""
-                onChange={handleChange}
-                checked={kindOfStand === "Xac Банк"}
-                />
-            </div>
-            </Form.Group>
-            <Button className="btn" variant="primary" type="submit">
-            Үргэлжлүүлэх
-            </Button>
-        </form> */}
+        <div className="step2_wrapper">
         <Form>
         {['radio'].map((type) => (
         <div key={`inline-${type}`} className="mb-3">
@@ -289,6 +125,52 @@ const Step2 = () => {
             <div>Төлөх дүн</div>
           
             <div>1,229,900₮</div>
+        </div>
+        </div>
+    
+
+
+
+        {/* PC here */}
+        <div>
+            <div>
+                <h3>Төлбөрийн нөхцөл</h3>
+                <div>
+                    <span>
+                        <img src="" alt="" />
+                        <div>Данс эсвэл QR код</div>
+                        <div>Дансаар шилжүүлэх</div>
+                        <div>Төлбөрийг дансанд шилжүүлэх, Интернет банк, Мобайл банк, QR код, дансаар төлбөр төлөх.</div>
+                    </span>
+                    <span>
+                        <img src="" alt="" />
+                        <div>Картаар</div>
+                        <div>Худалдаа хөгжлийн банк</div>
+                        <div>ХААН банкны картнаас бусад бүх төрлийн дэбит, кредит, гадаадын, дотоодын картаар төлбөр төлөх.</div>
+                    </span>
+                    <span>
+                        <img src="" alt="" />
+                        <div>Цахим хэтэвч</div>
+                        <div>Most Money</div>
+                        <div></div>
+                    </span>
+                    <span>
+                        <img src="" alt="" />
+                        <div></div>
+                        <div></div>
+                    </span>
+                    <span>
+                        <img src="" alt="" />
+                        <div></div>
+                        <div></div>
+                    </span>
+                    <span>
+                        <img src="" alt="" />
+                        <div></div>
+                        <div></div>
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
   );

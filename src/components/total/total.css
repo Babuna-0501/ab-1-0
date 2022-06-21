@@ -1,6 +1,7 @@
 @media screen and (min-width: 800px) {
     .total {
         width: 35.469vw;
+        height: 680px;
         display: flex;
         flex-direction: column;
         background-color: #F7F7F7;
@@ -46,6 +47,7 @@
     }
     .total .total_xl--right .total_xl--right--mid span {
         max-width: 9.375vw;
+        line-height: 11px;
     }
     .total .total_xl--right .total_xl--right--mid h3 {
         font-family: 'Montserrat', 'sans-serif';

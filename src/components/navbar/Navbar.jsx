@@ -9,6 +9,7 @@ import { useState } from 'react';
 import Find from '../find/find';
 import Empty from '../../assets/empty.png'
 import Contact from '../../assets/contact.svg'
+import Compare from '../../assets/compare_icon.svg'
 
 // function* getStockValue() {
 //   var entry1 = yield request('http://myrl.com/stock/key');
@@ -72,9 +73,9 @@ const Navbar = () => {
         <div className='left'><Link to="/"><img className='logo' src={Logo} /> </Link>
           <div className='left_search--xl'>
             <form class="search-container">
-              <input type="text" id="search-bar" placeholder="What can I help you with today?"/>
+              <input type="text" id="search-bar" placeholder="Та юу хайж байна?"/>
               <a href="#">
-                {/* <img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"/> */}
+                <img class="search-icon" src={Search1}/>
               </a>
             </form>
           </div>
@@ -101,6 +102,7 @@ const Navbar = () => {
             </div>
             <div className='basket_xl'>
               <div className='phone_wrapper'>+976 79997000</div>
+              <div><img src={Compare} alt="lazy" /></div>
                 <>
                 <img className='basket_img--xl' src={Basket} alt="" onClick={() => setModalShow2(true)}/>
                 <MyVerticallyCenteredModal2

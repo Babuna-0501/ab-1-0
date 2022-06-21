@@ -1,0 +1,64 @@
+.leasing {
+    padding: 70px 100px;
+}
+.leasing .title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.leasing .form_xl {
+    margin-top: 92px;
+}
+
+.leasing .form_xl form{
+    display: grid;
+    grid-template-columns:repeat(2, 510px);
+    justify-content: start;
+    grid-column-gap: 67px;
+}
+
+.leasing .form_xl form .mb-3 input{
+    height: 76px;
+    width: 510px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.leasing .form_xl form .mb-3 .last_input{
+    height: 155px;
+}
+
+.leasing .form_xl form .mb-3 .last_input::placeholder {
+    width: 302px;
+    white-space: normal;
+}
+
+.btn_leasing {
+    width: 346px;
+    height: 76px;
+    bottom: 17px;
+    right: 169px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 183px;
+    background-color: #AB052D;
+    border-radius: 0;
+}
+
+.btn_leasing::before {
+    content: url('../../assets/leasing_arrow.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.text_wrapper {
+    width: 346px;
+    bottom: 125px;
+    right: 169px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

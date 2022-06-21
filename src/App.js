@@ -17,6 +17,8 @@ import Condition from './components/purchase/condition/condition'
 import Find from './components/find/find';
 import Footer from './components/footer/footer';
 import Navigation from './components/navigation/navigation';
+import Leasing from './components/leasing/leasing';
+import News from './components/news/news';
 
 function App() {
   
@@ -41,6 +43,9 @@ function App() {
             <Route path="/find">
               <Find/>
             </Route>
+            <Route path="/news">
+              <News/>
+            </Route>
             {/* <Route path="/product/:productId">
               <Product />
             </Route> */}
@@ -55,6 +60,9 @@ function App() {
             </Route>
             <Route path="/terms">
               <Terms/>
+            </Route>
+            <Route path="/leasing">
+              <Leasing/>
             </Route>
             <Route path="/product/purchase"> 
               <Purchase/> 
