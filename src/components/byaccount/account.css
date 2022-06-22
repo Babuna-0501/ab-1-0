@@ -1,0 +1,112 @@
+.account {
+    width: 470px;
+    height: 160px;
+}
+.btn_modal--pc {
+    width: 470px;
+    height: 160px;
+    background-color: transparent !important;
+    border-color: unset;
+    box-shadow: none;
+   
+}
+button:focus {outline:0;}
+
+.modal-content {
+    width: 912px;
+    height: 948px;
+}
+
+.modal-header {
+    justify-content: center;
+    padding-top: 64px;
+}
+.modal-title {
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.order--pc {
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.price_modal--pc {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.payment_sel--pc {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.account_sel--pc {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #1B3268;
+}
+.account_modal--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+.account_modal--wrapper .nt1{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.account_modal--wrapper .nt2 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+}
+
+.qr--pc {
+    margin-top: 70px;
+}
+
+.qr--img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.inst--pc {
+    width: 588px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 21px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.phone--pc {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.phone--pc span {
+    font-weight: bold;
+    margin-left: 10px;
+}

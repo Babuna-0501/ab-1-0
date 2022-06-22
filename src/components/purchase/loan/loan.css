@@ -17,46 +17,100 @@ label:focus,
     -webkit-appearance:none;
     box-shadow: none !important;
 } */
-
-
 .loan {
-    padding: 30px 25px;
     font-family: Montserrat;
 }
 
-.loan .form-control  {
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-    border-radius: 0%;
-    padding: .875rem .75rem;
-}
 
-.loan .form-select {
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-    border-radius: 0%;
+@media screen and (min-width: 800px) {
+    .form--pc {
+        display: grid;
+        grid-template-columns: repeat(2, 461px);
+        grid-column-gap: 70px;
+        grid-row-gap: 50px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .loan_layout--pc {
+        display: flex;
+        justify-content: space-between;
+    }
+    .form--pc input {
+        font-size: 20px;
+    }
+    .form--pc select {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .loan {
+        padding: 30px 87px;
+    }
+    .loan h4 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .loan .form-control  {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        padding: .875rem .75rem;
+    }
+    .loan .form-select {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        height: 50px;
+        color: #212529;
+    }
+    .loan .loan__btn {
+        display: none;
+    }
 }
+@media screen and (max-width: 800px) {
 
-.loan label {
-   padding: 0.775rem;
-}
-
-.loan .loan__btn {
-    width: 136px;
-    height: 35px;
-    margin: 3.1rem 16.2rem 0 0.1rem;
-    border-radius: 17.5px;
-    background-color: #C73450;
-    color: #fff;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.83;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
+    .loan {
+        padding: 30px 25px;
+        font-family: Montserrat;
+    }
+    
+    .loan .form-control  {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        padding: .875rem .75rem;
+    }
+    
+    .loan .form-select {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        height: 50px;
+        color: #212529;
+    }
+    
+    .loan label {
+       padding: 0.775rem;
+    }
+    
+    .loan .loan__btn {
+        width: 136px;
+        height: 35px;
+        margin: 3.1rem 16.2rem 0 0.1rem;
+        border-radius: 17.5px;
+        background-color: #C73450;
+        color: #fff;
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.83;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
 }

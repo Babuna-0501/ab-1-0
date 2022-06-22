@@ -11,6 +11,12 @@ import Ub from '../../../assets/logos/ub_bank.png'
 import Xaan from '../../../assets/logos/xaanbank.png'
 import Store from '../../../assets/logos/store_pay.jpeg'
 import ByAccount from "../../storepay/Storepay";
+import Most from "../../../assets/most.png";
+import Simple from "../../../assets/simple.jpeg";
+import Social from "../../../assets/social.png";
+import Total from "../../total/total";
+import Footer from "../../footer/footer";
+import Account from "../../byaccount/account";
 
 const Step2 = () => {
 //   const [item, setItem] = useState({ kindOfStand: "", another: "another" });
@@ -132,46 +138,66 @@ const Step2 = () => {
 
 
         {/* PC here */}
-        <div>
-            <div>
+        <div className="step2_wrapper--pc">
+            <div className="inner_wrapper--pc">
                 <h3>Төлбөрийн нөхцөл</h3>
-                <div>
+                <div className="payment_selection--pc">
+                    <div className="popup--pc">
+                        <Account/>
+                    </div>
                     <span>
-                        <img src="" alt="" />
-                        <div>Данс эсвэл QR код</div>
-                        <div>Дансаар шилжүүлэх</div>
+                        <div>
+                            <img src={wallet} alt="lazy" />
+                            <div>Данс эсвэл QR код</div>
+                        </div>
+                        <div className="payment_title--pc">Дансаар шилжүүлэх</div>
                         <div>Төлбөрийг дансанд шилжүүлэх, Интернет банк, Мобайл банк, QR код, дансаар төлбөр төлөх.</div>
                     </span>
                     <span>
-                        <img src="" alt="" />
-                        <div>Картаар</div>
-                        <div>Худалдаа хөгжлийн банк</div>
+                        <div>
+                            <img src={HHbank} alt="lazy" />
+                            <div>Картаар</div>
+                        </div>
+                        <div className="payment_title--pc">Худалдаа хөгжлийн банк</div>
                         <div>ХААН банкны картнаас бусад бүх төрлийн дэбит, кредит, гадаадын, дотоодын картаар төлбөр төлөх.</div>
                     </span>
                     <span>
-                        <img src="" alt="" />
-                        <div>Цахим хэтэвч</div>
-                        <div>Most Money</div>
-                        <div></div>
+                        <div>
+                            <img src={Most} alt="lazy" />
+                            <div>Цахим хэтэвч</div>
+                        </div>
+                        <div className="payment_title--pc">Most Money</div>
+                        <div>Most money үйлчилгээний хэрэглэгчид утасны дугаар, ТАН кодоо оруулан төлбөрөө төлнө үү.</div>
                     </span>
                     <span>
-                        <img src="" alt="" />
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <img src={Store} alt="" />
+                            <div>Хуваан төлөх үйлчилгээ</div> 
+                        </div>
+                        <div className="payment_title--pc">Storepay</div>
+                        <div>Storepay үйлчилгээг ашиглан ямар ч хүү, шимтгэлгүй хуваан төлөх нөхцөлөөр төлөх боломжтой</div>
                     </span>
                     <span>
-                        <img src="" alt="" />
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <img src={Simple} alt="lazy" />
+                            <div>Дижитал зээл</div>
+                        </div>
+                        <div className="payment_title--pc">Simple</div>
+                        <div>Simple app  ашиглан төлбөрөө төлнө.</div>
                     </span>
                     <span>
-                        <img src="" alt="" />
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <img src={Social} alt="lazy" />
+                            <div>Цахим хэтэвч</div>
+                        </div>
+                        <div className="payment_title--pc">Socialpay</div>
+                        <div>Голомт банкны Social Pay үйлчилгээг ашиглан төлбөр төлөх боломжтой.</div>
                     </span>
                 </div>
             </div>
+            <Total/>
         </div>
+        <Footer/>
     </div>
   );
 };

@@ -1,3 +1,7 @@
+.step2 {
+    font-family: "Montserrat", sans-serif;
+}
+
 @media screen and (max-width: 800px) {
     .step2 form {
         padding: 30px 20px 0;
@@ -97,5 +101,61 @@
 @media screen and (min-width: 800px) {
     .step2_wrapper {
         display: none;
+    }
+
+    .step2 .step2_wrapper--pc {
+        padding: 15px 88px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .step2 .step2_wrapper--pc  .inner_wrapper--pc h3{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .payment_selection--pc {
+        position: relative;
+        margin-top: 60px;
+        width: 982px;
+        display: grid;
+        grid-template-columns: repeat(2, 470px);
+        /* grid-column-gap: 20px; */
+        gap: 24px;
+    }
+    .payment_selection--pc span div img {
+        width: 40px;
+        margin-right: 45px;
+   
+    }
+    .payment_selection--pc span div{
+        display: flex;
+        font-weight: 600;
+    }
+    .payment_selection--pc span div div {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+    }   
+    .payment_selection--pc span {
+        height: 160px;
+        box-shadow: 3px 3px 20px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        padding: 15px;
+        border: 0.5px solid #DADADA;
+        cursor: pointer;
+    }
+
+    .payment_selection--pc span:hover {
+        border-color: #8403fc;
+    }
+
+    .payment_title--pc {
+        position: relative;
+        left: 85px;
+        font-size: 20px;
+        font-weight: bold !important;
+        top: -20px;
+    }
+    .popup--pc {
+        position: absolute;
     }
 }
