@@ -19,6 +19,7 @@ import Footer from './components/footer/footer';
 import Navigation from './components/navigation/navigation';
 import Leasing from './components/leasing/leasing';
 import News from './components/news/news';
+import Orders from './components/myorders/orders';
 
 function App() {
   
@@ -45,6 +46,9 @@ function App() {
             </Route>
             <Route path="/news">
               <News/>
+            </Route>
+            <Route path="/orders">
+              <Orders/>
             </Route>
             {/* <Route path="/product/:productId">
               <Product />

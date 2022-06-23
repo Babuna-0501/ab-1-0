@@ -1,0 +1,308 @@
+.orders {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@media screen and (max-width: 800px) {
+    .payment_field {
+        display: none;
+    }
+    .orders div h3 {
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    
+    .orders div h3 span {
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    
+    .orders_wrapper .top .image_big {
+        width: 73px;
+        height: 73px;
+    }
+    
+    .orders_wrapper .bottom .image_big {
+        width: 60px;
+        height: 80px;
+    }
+    
+    .orders_wrapper .top {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #DADADA;
+        padding-left: 27px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .orders_wrapper .bottom {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #DADADA;
+        border-bottom: 1px solid #DADADA !important;
+        padding-left: 36px;
+        padding-right: 10px;
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+    .top_wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 195px;
+    }
+    .top_wrapper .detail {
+        text-align: left;
+    }
+    
+    .top_wrapper .detail div:not(:first-child) {
+        font-weight: 500;
+    }
+    
+    .bottom_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 181px;
+    }
+    
+    .bottom_wrapper .detail{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .bottom_wrapper .detail div:not(:first-child) {
+        font-weight: 500;
+    }
+    
+    .price_orders .new_orders {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .price_orders .old_orders {
+        font-size: 10px;
+        font-weight: 500;
+        text-decoration: line-through;
+    }
+    .price_orders .new_orders2 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .quant {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .orders_bottom {
+        padding: 25px;
+    }
+    
+    .orders_bottom--top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .orders_bottom--top button {
+        width: 172px;
+        height: 35px;
+        background-color: #1B3268;
+        border: none;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .orders_bottom--top div {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .orders_bottom--top div span {
+        margin-left: 5px;
+    }
+    .orders_title--pc {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .orders_title--sp {
+        display: none;
+    }
+    .orders_title--pc {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .orders {
+        padding-left: 86px;
+        padding-right: 60px;
+        margin-top: 30px;
+    }
+    .orders_wrapper {
+        width: 1100px;
+        margin-top: 50px;
+    }
+    .orders_wrapper .top .image_big {
+        width: 145px;
+        height: 145px;
+        position: relative;
+        left: -17px;
+        top: 10px;
+    }
+    .orders_wrapper .bottom .image_big {
+        width: 107px;
+        height: 145px;
+        position: relative;
+        left: 3px;
+        top: 33px;
+    }
+    .orders_wrapper .top {
+        border-top: 1px solid #DADADA;
+        padding-top: 74px;
+        padding-bottom: 86px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .orders_wrapper .bottom {
+        border-top: 1px solid #DADADA;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top_wrapper .detail {
+        text-align: left;
+    }
+    .bottom_wrapper .detail {
+        text-align: left;
+    }
+    .top_wrapper .detail div:first-of-type {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .bottom_wrapper .detail div:first-of-type {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .top_wrapper .detail div:not(:first-child) {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .bottom_wrapper .detail div:not(:first-child) {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .top_wrapper {
+        position: relative;
+        margin-left: -509px;
+        top: 5px;
+        line-height: 27px;
+    }
+    .bottom_wrapper {
+        position: relative;
+        top: 30px;
+        left: -133px;
+        line-height: 27px;
+    }
+    .brand_orders img {
+        width: 125px;
+    }
+    .quant {
+        font-size: 20px;
+        margin-top: 23px;
+        font-weight: 500;
+    }
+    .price_orders .new_orders {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .price_orders .new_orders2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .price_orders .old_orders {
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: line-through;
+        display: flex;
+        justify-content: end;
+    }
+    .orders_bottom {
+        display: none;
+    }
+    .payment_field {
+        width: 598px;
+        height: 794px;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+        margin-top: -39px;
+        padding: 100px 54px;
+    }
+    .order_and_payment {
+        display: flex;
+        justify-content: space-between;
+    }
+    .payment_field .total_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 21px;
+    }
+    .payment_field .total_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .payment_field .total_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.458vw;
+        font-weight: 600;
+        line-height: 1.354vw;
+    }
+    .payment_field .total_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 500;
+        line-height: 2.969vw;
+    }
+    .payment_text {
+        border-top: 1px solid #DADADA;
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .payment_field button {
+        background-color: #1B3268;
+        width: 490px;
+        height: 61px;
+        border-radius: 30px;
+        color: #fff;
+        border: none;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .progress_order_bar--pc {
+        margin-top: 60px;
+    }
+    ._53Ji7  {
+        font-weight: 600;
+    }
+    ._2Jtxm ._1hzhf {
+        font-size: 16px !important;
+    }
+    .orders_number {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .orders_number span {
+        font-weight: 500 !important;
+        margin-left: 10px;
+    }
+}

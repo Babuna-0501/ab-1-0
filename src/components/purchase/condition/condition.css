@@ -1,34 +1,96 @@
 .condition {
-    padding: 30px;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
 }
 
-.condition .title {
-    border-bottom: 1px solid #000;
-    padding-bottom: 5px;
+@media screen and (max-width: 800px) {
+    .condition {
+        padding: 30px;
+    }
+    
+    .condition .title {
+        border-bottom: 1px solid #000;
+        padding-bottom: 5px;
+    }
+    
+    .condition h2 {
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    
+    .condition h4, h5 {
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .condition p {
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: left;
+    }
 }
 
-.condition h2 {
-    font-size: 18px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000;
-}
-
-.condition h4, h5 {
-    font-weight: 600;
-    line-height: 20px;
-    font-size: 12px;
-    text-align: left;
-}
-
-.condition p {
-    font-weight: 400;
-    line-height: 20px;
-    font-size: 12px;
-    text-align: left;
+@media screen and (min-width: 800px) {
+    .condition {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    .condition_wrapper--pc {
+        padding: 100px 87px;
+        display: grid;
+        grid-template-columns: 524px 447px;
+        grid-column-gap: 48px;
+     
+    }
+    .condition_wrapper--pc h4 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .condition_wrapper--pc p {
+        font-size: 20px;
+        font-weight: 500;
+        text-indent: 1px;
+        list-style-type: square;
+        display: list-item;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .condition_wrapper--pc h5 {
+        font-weight: 600;
+    }
+    .wreg--pc {
+        margin-top: -225px;
+        line-height: 28px;
+    }
+    .treg--pc {
+        margin-top: -39px;
+    }
+    .condition_wrapper--pc span {
+        position: relative;
+        left: 574px;
+        top: -244px;
+       
+    }
+    .condition_wrapper--pc span p {
+        width: 447px !important;
+    }
+    .cond_btn {
+        display: none;
+    }
+    .condition .title {
+        position: absolute;
+        margin-left: 87px;
+        margin-top: 8px;
+    }
 }

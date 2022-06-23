@@ -1,7 +1,7 @@
 @media screen and (min-width: 800px) {
     .total {
         width: 35.469vw;
-        height: 680px;
+        height: 770px;
         display: flex;
         flex-direction: column;
         background-color: #F7F7F7;
@@ -66,7 +66,9 @@
     .total_xl--right--btns {
         margin-top: 2.708vw;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        gap: 20px;
         align-items: center;
     }
     .total_xl--right--btns .btn-total {
@@ -107,5 +109,17 @@
     .total_quant--xl {
         right: 12px;
       
+    }
+    .btn-total2 {
+        width: 24.479vw;
+        height: 3.177vw;
+        background-color: #fff;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 600;
+        border: none;
+        color: #000;
+        border-radius: 1.563vw;
+        border: 0.5px solid #D9D9D9;
     }
 }

@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/tabs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -50,37 +51,23 @@
       });
     </script>
     <script>
-          const vm = new Vue({
-        el:  "#people",
-        data: {
-            people: [
-                { name: "Bill Gates", category: "Tech" },
-                { name: "Steve Jobs", category: "Tech" },
-                { name: "Jeff Bezos", category: "Tech" },
-                { name: "George Clooney", category: "Entertainment" },
-                { name: "Meryl Streep", category: "Entertainment" },
-                { name: "Amy Poehler", category: "Entertainment" },
-                { name: "Lady of Lórien", category: "Fictional" },
-                { name: "BB8", category: "Fictional" },
-                { name: "Michael Scott", category: "Fictional" }
-            ],
-            selectedCategory: "All"
-        },
-        computed: {
-            filteredPeople: function() {
-                const vm = this;
-                const category = vm.selectedCategory;
-                
-                if(category === "All") {
-                    return vm.people;
-                } else {
-                    return vm.people.filter(function(person) {
-                        return person.category === category;
-                    });
-                }
-            }
-        }
-    });
+      $(document).ready(function() {
+        
+        $('.next').click(function() {
+          var theid = $(this).parent().next().attr("id");
+          $('.nav-tabs a[href="#'+ theid +'"]').tab('show');
+          
+          $('#s-'+theid).addClass('step-active');
+        });
+        
+        
+        $('.back').click(function() {
+          $('.nav-tabs a[href="#'+ $(this).parent().prev().attr("id") +'"]').tab('show');
+          
+          $('#s-'+$(this).parent().attr("id")).removeClass('step-active');
+          
+        });
+      });
     </script>
   </body>
 </html>
