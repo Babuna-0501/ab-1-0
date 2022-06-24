@@ -131,7 +131,7 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1920px) {
     .orders_title--sp {
         display: none;
     }
@@ -260,15 +260,15 @@
     }
     .payment_field .total_xl--right--top div:first-of-type {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.458vw;
+        font-size: 28px;
         font-weight: 600;
-        line-height: 1.354vw;
+        line-height: 26px;
     }
     .payment_field .total_xl--right--top div:last-of-type {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.042vw;
+        font-size: 20px;
         font-weight: 500;
-        line-height: 2.969vw;
+        line-height: 57px;
     }
     .payment_text {
         border-top: 1px solid #DADADA;
@@ -304,5 +304,181 @@
     .orders_number span {
         font-weight: 500 !important;
         margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1920px) {
+    .orders_title--sp {
+        display: none;
+    }
+    .orders_title--pc {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .orders {
+        padding-left: 4.479vw;
+        padding-right: 3.125vw;
+        margin-top: 1.563vw;
+    }
+    .orders_wrapper {
+        width: 57.292vw;
+        margin-top: 2.604vw;
+    }
+    .orders_wrapper .top .image_big {
+        width: 7.552vw;
+        height: 7.552vw;
+        position: relative;
+        left: -0.885vw;
+        top: 0.521vw;
+    }
+    .orders_wrapper .bottom .image_big {
+        width: 5.573vw;
+        height: 7.552vw;
+        position: relative;
+        left: 0.156vw;
+        top: 1.719vw;
+    }
+    .orders_wrapper .top {
+        border-top: 1px solid #DADADA;
+        padding-top: 3.854vw;
+        padding-bottom: 4.479vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .orders_wrapper .bottom {
+        border-top: 1px solid #DADADA;
+        padding-top: 2.604vw;
+        padding-bottom: 2.604vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top_wrapper .detail {
+        text-align: left;
+    }
+    .bottom_wrapper .detail {
+        text-align: left;
+    }
+    .top_wrapper .detail div:first-of-type {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .bottom_wrapper .detail div:first-of-type {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .top_wrapper .detail div:not(:first-child) {
+        font-size: 1.042vw;
+        font-weight: 400;
+    }
+    .bottom_wrapper .detail div:not(:first-child) {
+        font-size: 1.042vw;
+        font-weight: 400;
+    }
+    .top_wrapper {
+        position: relative;
+        margin-left: -26.510vw;
+        top: 0.260vw;
+        line-height: 1.406vw;
+    }
+    .bottom_wrapper {
+        position: relative;
+        top: 1.563vw;
+        left: -6.927vw;
+        line-height: 1.406vw;
+    }
+    .brand_orders img {
+        width: 6.510vw;
+    }
+    .quant {
+        font-size: 1.042vw;
+        margin-top: 1.198vw;
+        font-weight: 500;
+    }
+    .price_orders .new_orders {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .price_orders .new_orders2 {
+        font-size: 1.458vw;
+        font-weight: 500;
+    }
+    .price_orders .old_orders {
+        font-size: 1.042vw;
+        font-weight: 500;
+        text-decoration: line-through;
+        display: flex;
+        justify-content: end;
+    }
+    .orders_bottom {
+        display: none;
+    }
+    .payment_field {
+        width: 31.146vw;
+        height: 41.354vw;
+        background-color: #F7F7F7;
+        border-radius: 1.302vw;
+        margin-top: -2.031vw;
+        padding: 5.208vw 2.813vw;
+    }
+    .order_and_payment {
+        display: flex;
+        justify-content: space-between;
+    }
+    .payment_field .total_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.094vw;
+    }
+    .payment_field .total_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .payment_field .total_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.458vw;
+        font-weight: 600;
+        line-height: 1.354vw;
+    }
+    .payment_field .total_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 500;
+        line-height: 2.969vw;
+    }
+    .payment_text {
+        border-top: 1px solid #DADADA;
+        padding-top: 0.781vw;
+        font-size: 1.042vw;
+        font-weight: 500;
+    }
+    .payment_field button {
+        background-color: #1B3268;
+        width: 25.521vw;
+        height: 3.177vw;
+        border-radius: 1.563vw;
+        color: #fff;
+        border: none;
+        font-size: 1.250vw;
+        font-weight: bold;
+        margin-top: 2.604vw;
+    }
+    .progress_order_bar--pc {
+        margin-top: 3.125vw;
+    }
+    ._53Ji7  {
+        font-weight: 600;
+    }
+    ._2Jtxm ._1hzhf {
+        font-size: 0.833vw !important;
+    }
+    .orders_number {
+        font-size: 1.042vw;
+        font-weight: bold;
+        margin-top: 2.604vw;
+    }
+    .orders_number span {
+        font-weight: 500 !important;
+        margin-left: 0.521vw;
     }
 }

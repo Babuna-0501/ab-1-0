@@ -38,18 +38,18 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
     .condition {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-right: 100px;
+        margin-right: 150px;
         margin-top: 20px;
     }
     .condition_wrapper--pc {
-        padding: 100px 87px;
+        padding: 100px 60px;
         display: grid;
-        grid-template-columns: 524px 447px;
+        grid-template-columns: 481px 418px;
         grid-column-gap: 48px;
      
     }
@@ -78,9 +78,8 @@
     }
     .condition_wrapper--pc span {
         position: relative;
-        left: 574px;
+        left: 529px;
         top: -244px;
-       
     }
     .condition_wrapper--pc span p {
         width: 447px !important;
@@ -92,5 +91,62 @@
         position: absolute;
         margin-left: 87px;
         margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1920px) {
+    .condition {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 7.813vw;
+        margin-top: 1.042vw;
+    }
+    .condition_wrapper--pc {
+        padding: 5.208vw 3.125vw;
+        display: grid;
+        grid-template-columns: 25.052vw 21.771vw;
+        grid-column-gap: 2.500vw;
+     
+    }
+    .condition_wrapper--pc h4 {
+        font-weight: bold;
+        font-size: 1.042vw;
+    }
+    .condition_wrapper--pc p {
+        font-size: 1.042vw;
+        font-weight: 500;
+        text-indent: 1px;
+        list-style-type: square;
+        display: list-item;
+        margin-left: 1.042vw;
+        margin-top: 0.313vw;
+    }
+    .condition_wrapper--pc h5 {
+        font-weight: 600;
+    }
+    .wreg--pc {
+        margin-top: -11.719vw;
+        line-height: 1.458vw;
+    }
+    .treg--pc {
+        margin-top: -2.031vw;
+    }
+    .condition_wrapper--pc span {
+        position: relative;
+        margin-left: 27.552vw;
+        margin-top: -12.708vw;
+        display: block;
+    }
+    .condition_wrapper--pc span p {
+        width: 24.844vw !important;
+    }
+    .cond_btn {
+        display: none;
+    }
+    .condition .title {
+        position: absolute;
+        margin-left: 4.531vw;
+        margin-top: 0.417vw;
     }
 }

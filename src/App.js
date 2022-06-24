@@ -15,11 +15,12 @@ import ProductList from './components/productList/productList'
 import Loan from './components/purchase/loan/loan';
 import Condition from './components/purchase/condition/condition'
 import Find from './components/find/find';
-import Footer from './components/footer/footer';
+// import Footer from './components/footer/footer';
 import Navigation from './components/navigation/navigation';
 import Leasing from './components/leasing/leasing';
 import News from './components/news/news';
 import Orders from './components/myorders/orders';
+import Compare from './components/compare/compare';
 
 function App() {
   
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route path="/orders">
               <Orders/>
+            </Route>
+            <Route path="/compare">
+              <Compare/>
             </Route>
             {/* <Route path="/product/:productId">
               <Product />

@@ -1,12 +1,12 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
     .total {
-        width: 35.469vw;
+        width: 681px;
         height: 770px;
         display: flex;
         flex-direction: column;
         background-color: #F7F7F7;
-        padding: 3.125vw 2.604vw;
-        border-radius: 1.563vw;
+        padding: 60px 50px;
+        border-radius: 30px;
     }
     .total .total_xl--right .total_xl--right--mid div {
         display: flex;
@@ -26,15 +26,15 @@
     }
     .total_xl--right--top div:first-of-type {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.458vw;
+        font-size: 28px;
         font-weight: 600;
-        line-height: 1.354vw;
+        line-height: 26px;
     }
     .total_xl--right--top div:last-of-type {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.042vw;
+        font-size: 20px;
         font-weight: 500;
-        line-height: 2.969vw;
+        line-height: 57px;
     }
     .total .total_xl--right .total_xl--right--mid {
         border-top: 1px solid #DADADA;
@@ -44,27 +44,27 @@
         font-family: 'Montserrat', 'sans-serif';
     }
     .total .total_xl--right .total_xl--right--mid img {
-        width: 3.646vw;
+        width: 70px;
     }
     .total .total_xl--right .total_xl--right--mid span {
-        max-width: 9.375vw;
+        max-width: 180px;
         line-height: 11px;
     }
     .total .total_xl--right .total_xl--right--mid h3 {
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.042vw;
+        font-size: 20px;
         font-weight: bold;
     }
     .total .total_xl--right .total_xl--right--mid p {
         margin-bottom: 0.5rem;
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 0.729vw;
+        font-size: 14px;
     }
     .total .total_xl--right .total_xl--right--mid .snd {
-        margin-top: 2.083vw;
+        margin-top: 40px;
     }
     .total_xl--right--btns {
-        margin-top: 2.708vw;
+        margin-top: 52px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -72,15 +72,15 @@
         align-items: center;
     }
     .total_xl--right--btns .btn-total {
-        width: 24.479vw;
-        height: 3.177vw;
+        width: 470px;
+        height: 61px;
         background-color: #1B3268;
         font-family: 'Montserrat', 'sans-serif';
-        font-size: 1.042vw;
+        font-size: 20px;
         font-weight: 600;
         border: none;
         color: #fff;
-        border-radius: 1.563vw;
+        border-radius: 30px;
     }
     .total_price--lg {
         font-size: 20px;
@@ -108,6 +108,133 @@
     }
     .total_quant--xl {
         right: 12px;
+      
+    }
+    .btn-total2 {
+        width: 470px;
+        height: 61px;
+        background-color: #fff;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        color: #000;
+        border-radius: 30px;
+        border: 0.5px solid #D9D9D9;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width:1920px) {
+    .total {
+        width: 35.469vw;
+        height: 40.104vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F7F7;
+        padding: 3.125vw 2.604vw;
+        border-radius: 1.563vw;
+    }
+    .total .total_xl--right .total_xl--right--mid div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .total_xl--right--top {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.521vw;
+    }
+    .total_xl--right--top div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .total_xl--right--top div:first-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.458vw;
+        font-weight: 600;
+        line-height: 1.354vw;
+    }
+    .total_xl--right--top div:last-of-type {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 500;
+        line-height: 2.969vw;
+    }
+    .total .total_xl--right .total_xl--right--mid {
+        border-top: 1px solid #DADADA;
+        border-bottom: 1px solid #DADADA !important;
+        padding-top: 1.667vw;
+        padding-bottom: 1.667vw;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+    .total .total_xl--right .total_xl--right--mid img {
+        width: 3.646vw;
+    }
+    .total .total_xl--right .total_xl--right--mid span {
+        max-width: 9.375vw;
+        line-height: 0.573vw;
+    }
+    .total .total_xl--right .total_xl--right--mid h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: bold;
+    }
+    .total .total_xl--right .total_xl--right--mid p {
+        margin-bottom: 0.417vw;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 0.729vw;
+    }
+    .total .total_xl--right .total_xl--right--mid .snd {
+        margin-top: 2.083vw;
+    }
+    .total_xl--right--btns {
+        margin-top: 2.708vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.042vw;
+        align-items: center;
+    }
+    .total_xl--right--btns .btn-total {
+        width: 24.479vw;
+        height: 3.177vw;
+        background-color: #1B3268;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 1.042vw;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 1.563vw;
+    }
+    .total_price--lg {
+        font-size: 1.042vw;
+        text-decoration: line-through;
+    }
+    .nd--lg {
+        line-height: 0.938vw;
+    }
+    .total_price--xl {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .total_flex-xl {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .total_info--xl {
+        margin-left: -0.781vw;
+    }
+    .total_quant--xl, .total_quant--xl2 {
+        position: relative;
+        font-size: 1.458vw;
+        font-weight: 600;
+        top: 0.781vw;
+    }
+    .total_quant--xl {
+        right: 0.625vw;
       
     }
     .btn-total2 {

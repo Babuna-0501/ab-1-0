@@ -1,0 +1,350 @@
+@media screen and (max-width: 800px) {
+    .bg_comp {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .bg_comp {
+        display: none;
+    }
+    .compare {
+        padding: 73px 79px;
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .compare::after {
+        content: url('../../assets/shape_bg98.svg');
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .compare_item1--container {
+        display: flex;
+    }
+    .compare_item2--container {
+        display: flex;
+    }
+    
+    .compare_item1 {
+        padding-right: 110px;
+    }
+    
+    .compare_item2  {
+        margin-left: 110px;
+    }
+    .compare_item1--wrapper .title {
+        font-size: 28px;
+        font-weight: bold;
+    }   
+    .compare_item1--wrapper .pd {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .compare_item--img1 {
+        width: 145px;
+        height: 145px;
+    }
+    .compare_item1--wrapper  {
+        margin-left: 50px;
+        line-height: 26px;
+    }
+    .compare_item1--wrapper img {
+        width: 129px;
+    }
+    .compare_item2--wrapper img {
+        width: 129px;
+    }
+    .compare_price {
+        font-size: 28px !important;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold !important;
+        margin-top: 25px;
+        line-height: 28px;
+    }
+    .compare_price span {
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        text-decoration: line-through;
+    }
+    
+    .compare_item--img2 {
+        width: 107px;
+        height: 145px;
+    }
+    .compare_item2--wrapper {
+        margin-left: 61px;
+    }
+    
+    .compare_item1--bottom {
+        font-size: 20px;
+        margin-top: 77px;
+        line-height: 50px;
+        font-weight: bold;
+        letter-spacing: 0;
+      
+    }
+    
+    .compare_item1--bottom--sub {
+        display: flex;
+        align-items: center;
+    }
+    .compare_item1--bottom span {
+        font-weight: 400;
+        margin-left: 15px;
+    }
+    
+    .compare_item1--bottom--sub .sub--sub2 {
+        margin-left: 74px;
+    }
+    
+    
+    
+    
+    .compare_price {
+        font-size: 28px !important;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold !important;
+        margin-top: 25px;
+        line-height: 28px;
+    }
+    .compare_price span {
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        text-decoration: line-through;
+    }
+    
+    .compare_item--img2 {
+        width: 107px;
+        height: 145px;
+    }
+    .compare_item2--wrapper {
+        margin-left: 61px;
+    }
+    
+    .compare_item2--bottom {
+        font-size: 20px;
+        margin-top: 85px;
+        line-height: 50px;
+        font-weight: bold;
+        letter-spacing: 0;
+        margin-left: -15px;
+    }
+    
+    .compare_item2--bottom--sub {
+        display: flex;
+        align-items: center;
+    }
+    .compare_item2--bottom span {
+        font-weight: 400;
+        margin-left: 15px;
+    }
+    
+    .compare_item2--bottom--sub .sub--sub2 {
+        margin-left: 74px;
+    }
+    
+    .compare_item1 button{
+        width: 234px;
+        height: 49px;
+        background-color: #1B3268;
+        border-radius: 25px;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 44px;
+    }
+    .compare_item2 button {
+        width: 234px;
+        height: 49px;
+        background-color: #1B3268;
+        border-radius: 25px;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 44px;
+    }
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width:1920px) {
+    .bg_comp {
+        position: absolute;
+        z-index: -1;
+        width: 66vw;
+        margin-top: 3.925vw;
+        margin-left: 4.115vw;
+    }
+    .compare {
+        padding: 3.802vw 4.115vw;
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .compare::after {
+        content: '';
+        background-image: url('../../assets/shape_bg98.svg');
+        position: absolute;
+        z-index: -1;
+        width: 100vw;
+    }
+    
+    .compare_item1--container {
+        display: flex;
+    }
+    .compare_item2--container {
+        display: flex;
+    }
+    
+    .compare_item1 {
+        padding-right: 5.729vw;
+    }
+    
+    .compare_item2  {
+        margin-left: 5.729vw;
+    }
+    .compare_item1--wrapper .title {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }   
+    .compare_item1--wrapper .pd {
+        font-size: 1.042vw;
+        font-weight: 500;
+    }
+    .compare_item2--wrapper .pd {
+        font-size: 1.042vw;
+        font-weight: 500;
+    }
+    .compare_item--img1 {
+        width: 7.552vw;
+        height: 7.552vw;
+    }
+    .compare_item1--wrapper  {
+        margin-left: 2.604vw;
+        line-height: 1.354vw;
+    }
+    .compare_item1--wrapper img {
+        width: 6.719vw;
+    }
+    .compare_item2--wrapper img {
+        width: 6.719vw;
+    }
+    .compare_price {
+        font-size: 1.458vw!important;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold !important;
+        margin-top: 1.302vw;
+        line-height: 1.458vw;
+    }
+    .compare_price span {
+        font-size: 1.042vw !important;
+        font-weight: 400 !important;
+        text-decoration: line-through;
+    }
+    
+    .compare_item--img2 {
+        width: 5.573vw;
+        height: 7.552vw;
+    }
+    .compare_item2--wrapper {
+        margin-left: 3.177vw;
+    }
+    
+    .compare_item1--bottom {
+        font-size: 1.042vw;
+        margin-top: 4.010vw;
+        line-height: 2.604vw;
+        font-weight: bold;
+        letter-spacing: 0;
+      
+    }
+    
+    .compare_item1--bottom--sub {
+        display: flex;
+        align-items: center;
+    }
+    .compare_item1--bottom span {
+        font-weight: 400;
+        margin-left: 0.781vw;
+    }
+    
+    .compare_item1--bottom--sub .sub--sub2 {
+        margin-left: 3.854vw;
+    }
+    
+    
+    .compare_price {
+        font-size: 1.458vw !important;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold !important;
+        margin-top: 1.302vw;
+        line-height: 1.458vw;
+    }
+    .compare_price span {
+        font-size: 1.042vw !important;
+        font-weight: 400 !important;
+        text-decoration: line-through;
+    }
+    
+    .compare_item--img2 {
+        width: 5.573vw;
+        height: 7.552vw;
+    }
+    .compare_item2--wrapper {
+        margin-left: 3.177vw;
+    }
+    
+    .compare_item2--bottom {
+        font-size: 1.042vw;
+        margin-top: 3.227vw;
+        line-height: 2.604vw;
+        font-weight: bold;
+        letter-spacing: 0;
+        margin-left: -0.781vw;
+    }
+    
+    .compare_item2--bottom--sub {
+        display: flex;
+        align-items: center;
+    }
+    .compare_item2--bottom span {
+        font-weight: 400;
+        margin-left: 0.781vw;
+    }
+    
+    .compare_item2--bottom--sub .sub--sub2 {
+        margin-left: 3.854vw;
+    }
+    
+    .compare_item1 button{
+        width: 12.188vw;
+        height: 2.552vw;
+        background-color: #1B3268;
+        border-radius: 1.302vw;
+        color: #fff;
+        border: none;
+        font-size: 0.833vw;
+        font-weight: bold;
+        margin-top: 2.292vw;
+    }
+    .compare_item2 button {
+        width: 12.188vw;
+        height: 2.552vw;
+        background-color: #1B3268;
+        border-radius: 1.302vw;
+        color: #fff;
+        border: none;
+        font-size: 0.833vw;
+        font-weight: bold;
+        margin-top: 2.292vw;
+    }
+}
