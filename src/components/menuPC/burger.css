@@ -217,9 +217,15 @@ span.boo {
 }
 
 .arrow_lg_xl::after {
-    content: 'ᐳ';
+    content: '';
+	background-image: url('../../assets/right-arrow.png');
     position: absolute;
+	background-size: 15px;
     left: 96%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 50%;
 }
 
 .arrow_lg_xl {
@@ -242,6 +248,9 @@ span.boo {
 	justify-content: center;
 	height:100%;
 	width:100%;
+  }
+  .c .dd .dd-a input:hover {
+	color: #009DFF;
   }
   .c .dd {
 	z-index:1;

@@ -22,7 +22,7 @@ label:focus,
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1920px) {
     .form--pc {
         display: grid;
         grid-template-columns: repeat(2, 461px);
@@ -112,5 +112,52 @@ label:focus,
         letter-spacing: normal;
         text-align: center;
         color: #fff;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+    .form--pc {
+        display: grid;
+        grid-template-columns: repeat(2, 24.010vw);
+        grid-column-gap: 3.646vw;
+        grid-row-gap: 2.604vw;
+        font-size: 1.042vw;
+        margin-top: 2.604vw;
+    }
+    .loan_layout--pc {
+        display: flex;
+        justify-content: space-between;
+    }
+    .form--pc input {
+        font-size: 1.042vw;
+    }
+    .form--pc select {
+        font-size: 1.042vw;
+        margin-top: 0.521vw;
+    }
+    .loan {
+        padding: 1.563vw 4.531vw;
+    }
+    .loan h4 {
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .loan .form-control  {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        padding: 0.729vw 0.625vw;
+    }
+    .loan .form-select {
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        border-radius: 0%;
+        height: 2.604vw;
+        color: #212529;
+    }
+    .loan .loan__btn {
+        display: none;
     }
 }

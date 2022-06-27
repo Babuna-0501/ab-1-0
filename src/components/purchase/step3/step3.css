@@ -27,3 +27,9 @@
     margin: 0;
     margin-left: 10%;
 }
+
+@media screen and (min-width: 500px) {
+    .step3 {
+        display: none;
+    }
+}

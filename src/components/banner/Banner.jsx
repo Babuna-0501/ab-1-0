@@ -9,12 +9,12 @@ import Img4 from '../../assets/Img1.png'
 function Banner() {
   return <div className='banner'>
       <Carousel
-      // autoPlay
-      // infiniteLoop
+      autoPlay
+      infiniteLoop
       showStatus={false}
       showIndicators={true}
       showThumbs={false}
-      // interval={5000}
+      interval={5000}
       className='carousel'
       >
         <div>

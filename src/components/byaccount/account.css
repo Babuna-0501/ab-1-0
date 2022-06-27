@@ -110,3 +110,125 @@ button:focus {outline:0;}
     font-weight: bold;
     margin-left: 10px;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+    .account {
+        width: 24.479vw;
+        height: 8.333vw;
+    }
+    .btn_modal--pc {
+        width: 24.479vw;
+        height: 8.333vw;
+        background-color: transparent !important;
+        border-color: unset;
+        box-shadow: none;
+       
+    }
+    button:focus {outline:0;}
+    
+    .modal-content {
+        width: 47.500vw;
+        height: 49.375vw;
+    }
+    
+    .modal-header {
+        justify-content: center;
+        padding-top: 3.333vw;
+    }
+    .modal-title {
+        font-size: 0.885vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+    .order--pc {
+        font-size: 0.885vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    .price_modal--pc {
+        display: flex;
+        justify-content: center;
+        font-size: 1.354vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+    
+    .payment_sel--pc {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.563vw;
+        font-size: 0.938vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+    
+    .account_sel--pc {
+        display: flex;
+        justify-content: center;
+        font-size: 1.354vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: #1B3268;
+    }
+    .account_modal--wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3.646vw;
+        margin-top: 2.604vw;
+    }
+    .account_modal--wrapper .nt1{
+        font-size: 0.938vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+    .account_modal--wrapper .nt2 {
+        font-size: 0.938vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold !important;
+    }
+    
+    .qr--pc {
+        margin-top: 3.646vw;
+    }
+    
+    .qr--img {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.563vw;
+    }
+
+    .qr--img img {
+        width: 10.156vw;
+    }
+    
+    .inst--pc {
+        width: 30.625vw;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        line-height: 1.094vw;
+        margin-top: 2.083vw;
+        font-size: 0.625vw;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .phone--pc {
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.625vw;
+        margin-top: 1.563vw;
+    }
+    
+    .phone--pc span {
+        font-weight: bold;
+        margin-left: 0.521vw;
+    }
+    .modal-dialog {
+        justify-content: center;
+    }
+}

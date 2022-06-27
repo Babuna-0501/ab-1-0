@@ -51,7 +51,7 @@
         margin-right: auto;
     }
 } */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1920px) {
     .purchase {
         display: flex;
         flex-direction: row;
@@ -73,5 +73,33 @@
     }
     .mb-3 {
         width: 24.010vw;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+    .purchase {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .purchase .tab1_wrapper .form_xl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3.646vw;
+        width: 52.083vw;
+        max-width: 1000px;
+    }
+    .purchase .tab2_wrapper .form_xl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3.646vw;
+        width: 52.083vw;
+        max-width: 1000px;
+    }
+    .mb-3 {
+        width: 24.010vw;
+    }
+    .purchase .lbl_txt {
+        font-size: 1.042vw;
     }
 }

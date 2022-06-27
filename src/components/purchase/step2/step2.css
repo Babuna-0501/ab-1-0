@@ -3,6 +3,9 @@
 }
 
 @media screen and (max-width: 800px) {
+    .step2_wrapper--pc {
+        display: none;
+    }
     .step2 form {
         padding: 30px 20px 0;
     }
@@ -98,7 +101,7 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1920px) {
     .step2_wrapper {
         display: none;
     }
@@ -154,6 +157,69 @@
         font-size: 20px;
         font-weight: bold !important;
         top: -20px;
+    }
+    .popup--pc {
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+    .step2_wrapper {
+        display: none;
+    }
+
+    .step2 .step2_wrapper--pc {
+        padding: 0.781vw 4.583vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .step2 .step2_wrapper--pc  .inner_wrapper--pc h3{
+        font-size: 1.458vw;
+        font-weight: bold;
+    }
+    .payment_selection--pc {
+        position: relative;
+        margin-top: 3.125vw;
+        width: 51.146vw;
+        display: grid;
+        grid-template-columns: repeat(2, 24.479vw);
+        /* grid-column-gap: 20px; */
+        gap: 1.250vw;
+    }
+    .payment_selection--pc span div img {
+        width: 2.083vw;
+        margin-right: 2.344vw;
+   
+    }
+    .payment_selection--pc span div{
+        display: flex;
+        font-weight: 600;
+        font-size: 0.833vw;
+    }
+    .payment_selection--pc span div div {
+        font-size: 0.833vw;
+        font-weight: 600;
+        font-stretch: normal;
+    }   
+    .payment_selection--pc span {
+        height: 8.333vw;
+        box-shadow: 0.156vw 0.156vw 1.042vw rgba(0,0,0,0.1);
+        border-radius: 0.521vw;
+        padding: 0.781vw;
+        border: 0.5px solid #DADADA;
+        cursor: pointer;
+    }
+
+    .payment_selection--pc span:hover {
+        border-color: #8403fc;
+    }
+
+    .payment_title--pc {
+        position: relative;
+        left: 4.427vw;
+        font-size: 1.042vw;
+        font-weight: bold !important;
+        top: -1.042vw;
     }
     .popup--pc {
         position: absolute;
