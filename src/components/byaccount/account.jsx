@@ -6,7 +6,8 @@ import Qr from "../../assets/qr-code.svg";
  
 function MyVerticallyCenteredModal(props) {
     return (
-      <Modal
+      <div className='acc_hg'>
+            <Modal
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
@@ -60,6 +61,8 @@ function MyVerticallyCenteredModal(props) {
           <Button onClick={props.onHide}>Close</Button>
         </Modal.Footer> */}
       </Modal>
+      </div>
+
     );
   }
  

@@ -12,7 +12,7 @@
 }
 button:focus {outline:0;}
 
-.modal-content {
+.acc_hg .modal-content {
     width: 912px;
     height: 948px;
 }
@@ -20,8 +20,9 @@ button:focus {outline:0;}
 .modal-header {
     justify-content: center;
     padding-top: 64px;
+    font-family: "Montserrat", sans-serif;
 }
-.modal-title {
+.acc_hg .modal-title {
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;

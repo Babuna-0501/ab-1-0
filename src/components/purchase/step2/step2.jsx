@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
-import { Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Form, Button, Offcanvas } from "react-bootstrap";
 import './step2.css';
 import wallet from '../../../assets/payment-method.png'
 import Statebank from '../../../assets/logos/state_bank.png'
@@ -17,8 +17,63 @@ import Social from "../../../assets/social.png";
 import Total from "../../total/total";
 import Footer from "../../footer/footer";
 import Account from "../../byaccount/account";
+import Qr from "../../../assets/qr-code.svg";
 
 const Step2 = () => {
+
+    function OffCanvasExample({ name, ...props }) {
+        const [show, setShow] = useState(false);
+      
+        const handleClose = () => setShow(false);
+        const handleShow = () => setShow(true);
+      
+        return (
+          <div className="step2_modal_pop--sp">
+            <Button variant="primary" onClick={handleShow} className="me-2 off_dans" >
+            </Button>
+            <Offcanvas show={show} onHide={handleClose} {...props}>
+              <Offcanvas.Header className="off_step2_header--sp">
+                <Offcanvas.Title> Төлбөр төлөх заавар</Offcanvas.Title>
+                <div className='order--sp'>
+                    Захиалгын дүн
+                </div>
+                <div className='price_modal--sp'>1,229,900₮</div>
+                <div className='payment_sel--sp'>
+                    Төлбөрийн нөхцөл
+                </div>
+                <div className='account_sel--sp'>
+                    Дансаар шилжүүлэх
+                </div>
+              </Offcanvas.Header>
+              <Offcanvas.Body className="body_step2--sp">
+                <div className='step2_sp_modal--wrapper'>
+                    <div className='nt1'>
+                        <div>Хүлээн авагч:</div>
+                        <div>Хаан банк:</div>
+                        <div>Голомт банк:</div>
+                        <div>Гүйлгээний утга:</div>
+                    </div>
+                    <div className='nt2'>
+                        <div>ABMALL</div>
+                        <div>5111 534 758</div>
+                        <div>202 5100 445</div>
+                        <div>125873862</div>
+                    </div>
+                </div>
+                <div className='inst--sp'>
+                    Таны захиалга төлбөр төлөгдсөний дараа баталгаажих болно! Та аль ч банкны салбар болон интернет банкны апликэйшн ашиглан төлбөрөө төлөх боломжтой.
+                </div>
+                <div className='phone--sp'>
+                    Лавлах утас: <span>79997000</span> 
+                </div>
+              </Offcanvas.Body>
+                <div className="pay_btm--sp">
+                    <Link to='/product/step3'>ИНТЕРНЕТ БАНКААР ТӨЛӨХ</Link>
+                </div>
+            </Offcanvas>
+          </div>
+        );
+      }
 //   const [item, setItem] = useState({ kindOfStand: "", another: "another" });
 
 //   const { kindOfStand } = item;
@@ -45,12 +100,18 @@ const Step2 = () => {
         {['radio'].map((type) => (
         <div key={`inline-${type}`} className="mb-3">
             <div className="lbl-wrapper">
-                <Form.Check
-                label="Дансаар шилжүүлэх"
-                name="group1"
-                type={type}
-                id={`inline-${type}-1`}
-                />
+                    {['bottom'].map((placement, idx) => (
+                        <>
+                        <Form.Check
+                        label="Дансаар шилжүүлэх"
+                        name="group1"
+                        type={type}
+                        id={`inline-${type}-1`}
+                        />
+                        <OffCanvasExample key={idx} placement={placement} name={placement}/>
+                        </>
+                
+                    ))}
             </div>
             <div className="lbl-wrapper">
                 <Form.Check

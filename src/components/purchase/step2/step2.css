@@ -99,6 +99,94 @@
         width: 82%;
         height: 10vw;
     }
+    .step2 .off_dans {
+        background-color: transparent !important;
+        position: absolute;
+        z-index: 10;
+        height: 47px;
+        width: 80vw !important;
+        left: 12%;
+        border: none !important;
+        top: 146px;
+    }
+    .step2 .off_dans:hover {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+    .off_step2_header--sp {
+        display: flex;
+        flex-direction: column;
+        font-family: "Montserrat", sans-serif;
+    }
+    .step2_sp_modal--wrapper {
+        display: flex;
+        background-color: #f4f4f4;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 139px;
+    }
+    .step2_sp_modal--wrapper .nt2 {
+        font-weight: bold;
+    }
+    .step2_modal_pop--sp .offcanvas-bottom {
+        height: 473px !important;
+    }
+    .footer 
+    {
+        display: none;
+    }
+    .inst--sp {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .phone--sp {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .phone--sp  span {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .price_modal--sp {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .payment_sel--sp {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .account_sel--sp {
+        color: #1B3268;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .order--sp {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .pay_btm--sp {
+        width: 100vw;
+        height: 51px;
+        background-color: #C73450;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .pay_btm--sp a {
+        color: #fff;
+    }
 }
 
 @media screen and (min-width: 1920px) {

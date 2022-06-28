@@ -28,6 +28,22 @@
     margin-left: 10%;
 }
 
+.btm_view {
+    width: 100vw;
+    height: 51px;
+    background-color: #C73450;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
 @media screen and (min-width: 500px) {
     .step3 {
         display: none;
