@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const Watch = () => {
   return (
     <Link to="/product/detail"> 
-      <div className='watch'>
-        <div><img className='img' src={Img} alt="" /></div>
-        <div><img className='brand' src={Brand} alt="lazy" /></div>
-        <div className='detail'>Galaxy Watch 4</div>
-        <div className='price'>1,515,000₮</div>
-      </div>
+      <section className='watch'>
+        <section><img className='img' src={Img} alt="" /></section>
+        <section><img className='brand' src={Brand} alt="lazy" /></section>
+        <section className='detail'>Galaxy Watch 4</section>
+        <section className='price'>1,515,000₮</section>
+      </section>
     </Link>
  
   )

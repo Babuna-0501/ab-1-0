@@ -29,7 +29,7 @@
     .step2 .lbl-wrapper p {
         margin-bottom: 0;
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: "Montserrat", sans-serif;
     }
     
     .step2 .lbl-wrapper .step2-icon {
@@ -76,6 +76,8 @@
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;
+        position: absolute;
+        bottom: 0;
     }
     
     .step2 .btm_view div {
@@ -133,7 +135,7 @@
     .step2_modal_pop--sp .offcanvas-bottom {
         height: 473px !important;
     }
-    .footer 
+    .step2 .footer 
     {
         display: none;
     }

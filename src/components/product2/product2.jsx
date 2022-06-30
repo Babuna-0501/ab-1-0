@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const Product2 = () => {
   return (
     <Link to="/product/detail"> 
-      <div className='product2'>
-        <div><img className='img' src={Img} alt="" /></div>
-        <div><img className='brand' src={Brand} alt="lazy" /></div>
-        <div className='detail'>Угаалгын машин</div>
-        <div className='price'>1,899,900₮</div>
-      </div>
+      <section className='product2'>
+        <section><img className='img' src={Img} alt="" /></section>
+        <section><img className='brand' src={Brand} alt="lazy" /></section>
+        <section className='detail'>Угаалгын машин</section>
+        <section className='price'>1,899,900₮</section>
+      </section>
     </Link>
  
   )

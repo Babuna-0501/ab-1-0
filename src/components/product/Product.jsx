@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const Product = () => {
   return (
     <Link to="/product/detail"> 
-      <div className='product'>
-        <div className='new'>Шинээр ирсэн</div>
-        <div><img className='img' src={Img} alt="" /></div>
-        <div><img className='brand' src={Brand} alt="lazy" /></div>
-        <div className='detail'>Ultra HD 4K TV 50”</div>
-        <div className='price'>2,129,900₮</div>
-      </div>
+      <section className='product'>
+        <section className='new'>Шинээр ирсэн</section>
+        <section><img className='img' src={Img} alt="" /></section>
+        <section><img className='brand' src={Brand} alt="lazy" /></section>
+        <section className='detail'>Ultra HD 4K TV 50”</section>
+        <section className='price'>2,129,900₮</section>
+      </section>
     </Link>
  
   )

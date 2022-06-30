@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const Phone = () => {
   return (
     <Link to="/product/detail"> 
-      <div className='phone'>
-        <div><img className='img' src={Img} alt="" /></div>
-        <div><img className='brand' src={Brand} alt="lazy" /></div>
-        <div className='detail'>Samsung Galaxy S22</div>
-        <div className='price'>2,225,000₮</div>
-      </div>
+      <section className='phone'>
+        <section><img className='img' src={Img} alt="" /></section>
+        <section><img className='brand' src={Brand} alt="lazy" /></section>
+        <section className='detail'>Samsung Galaxy S22</section>
+        <section className='price'>2,225,000₮</section>
+      </section>
     </Link>
  
   )
