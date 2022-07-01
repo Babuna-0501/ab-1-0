@@ -18,9 +18,11 @@
     margin-right: auto;
     padding-left: 40px;
     color: #000;
-}
+    background: #F7F7F7;
+};
 
-.search  .search_wrapper {
+
+.search .search_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;

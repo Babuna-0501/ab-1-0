@@ -62,12 +62,13 @@
     width: auto;
     display: flex;
     align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
     font-family: 'Montserrat', 'sans-serif';
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 300;
     color: #757575;
+    border: 1px solid #dddd;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .modal-lg, .modal-xl {

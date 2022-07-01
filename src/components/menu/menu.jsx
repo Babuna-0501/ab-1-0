@@ -71,19 +71,7 @@ const menu = () => {
               </NavDropdown>
             </Nav>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <NavDropdown
-                title="Сонирхсон бүтээгдэхүүн"
-                id={`offcanvasNavbarDropdown-expand-${expand}`}
-              >
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="/basket">Сонирхсон бүтээгдэхүүн</Nav.Link>
             </Nav>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="login">Нэвтрэх / Бүртгүүлэх</Nav.Link>
@@ -95,19 +83,8 @@ const menu = () => {
             <Nav.Link href="terms">Үйлчилгээний нөхцөл</Nav.Link>
             </Nav>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <NavDropdown
-                title="Холбоо барих"
-                id={`offcanvasNavbarDropdown-expand-${expand}`}
-              >
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="/baske">Холбоо барих
+              </Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

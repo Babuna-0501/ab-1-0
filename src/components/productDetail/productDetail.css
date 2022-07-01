@@ -121,7 +121,13 @@
   margin-top: 20px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1921px) {
+  .share_btn {
+    display: none;
+  }
+  .like_btn {
+    display: none;
+  }
   .productDetail .carousel {
     width: 945px;
     height: 639px;
@@ -414,5 +420,457 @@
   }
   .related_prods {
     display: none;
+  }
+  .share_btn {
+    position: absolute;
+    z-index: 1;
+    bottom: 4.7vw;
+    left: 82vw;
+    width: calc(3.435vw + 5px);
+  }
+  .like_btn {
+    position: absolute;
+    z-index: 1;
+    bottom: 4.7vw;
+    left: 90vw;
+    width: calc(3.435vw + 5px);
+  }
+  .productDetail_info--price span:first-of-type {
+    font-size: 4.673vw;
+    font-weight: bold;
+  }
+  .productDetail_info--price span:last-of-type {
+    font-size: 3.271vw;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  .center_sp  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.009vw;
+    font-size: 2.804vw;
+    width: 86.449vw;
+  }
+  .prd_flex .product_info_xl--right .center_sp {
+    border-top: 1px solid #dadada;
+    padding-top: 11.682vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .colors-container input:checked ~ .checkmark {
+    background-color: red;
+  }
+
+  .colors-container2 input:checked ~ .checkmark {
+    background-color: blue;
+  }
+  .colors-container3 input:checked ~ .checkmark {
+    background-color: grey;
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .color p {
+    font-weight: bold;
+  }
+
+  .color p span {
+    font-weight: normal;
+    margin-left: 1.168vw;
+  }
+  #colors {
+    display: flex;
+  }
+  .colors-container,
+  .colors-container2,
+  .colors-container3 {
+    display: block;
+    position: relative;
+    padding-left: 8.178vw;
+    margin-bottom: 2.804vw;
+    cursor: pointer;
+    font-size: 5.140vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .colors-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .colors-container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .colors-container3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4.673vw;
+    width: 4.673vw;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .colors-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .colors-container2:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .colors-container3:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .colors-container input:checked ~ .checkmark {
+    background-color: red;
+  }
+
+  .colors-container2 input:checked ~ .checkmark {
+    background-color: blue;
+  }
+  .colors-container3 input:checked ~ .checkmark {
+    background-color: grey;
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .quantity {
+    font-size: 2.804vw;
+  }
+  .quantity div:first-of-type{
+    font-weight: bold;
+    color: #1B3268;
+    margin-bottom: 4.673vw;
+  }
+  .quantity label {
+    margin-right: 2.336vw;
+  }
+  .store_p--sp--img {
+    width: 86.449vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 8.879vw;
+  }
+  .productDetail .productDetail_payment .top .btn_purchase {
+    background-color: #1B3268 !important;
+    color: #fff !important;
+  }
+  .productDetail .productDetail_payment .prod_btm h3 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .share_btn {
+    display: none;
+  }
+  .like_btn {
+    display: none;
+  }
+  .productDetail .carousel {
+    width: 49.219vw;
+    height: 33.281vw;
+  }
+  .productDetail .productDetail_wrapper {
+    width: 39.740vw;
+  }
+  .productDetail_wrapper {
+    display: none;
+  }
+  .productDetail_wrapper_xl {
+    width: 49.219vw;
+    padding: 2.917vw 5.208vw;
+    display: flex;
+  }
+  .productDetail_wrapper_xl h3 {
+    font-size: 1.042vw;
+    font-weight: 700;
+  }
+  .productDetail_wrapper_xl .product_info_xl {
+    font-size: 1.042vw;
+  }
+  .productDetail_wrapper_xl .product_info_xl span {
+    font-weight: 700;
+    margin-right: 1.042vw;
+  }
+  .productDetail_wrapper_xl .product_info_xl .info_inner {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.458vw;
+    margin-top: 1.094vw;
+  }
+  .productDetail_wrapper_xl .product_info_xl p {
+    display: inline;
+    margin-left: 1.042vw;
+  }
+  .productDetail_wrapper_xl .product_info_xl .info_inner--first {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.125vw;
+  }
+  .prd_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5.990vw;
+  }
+  .prd_flex .product_info_xl--right {
+    width: 39.740vw;
+    padding-top: 1.979vw;
+  }
+  .prd_flex .product_info_xl--right .brand_icon {
+    width: 5.990vw;
+  }
+  .prd_flex .product_info_xl--right .top_xl .title {
+    font-size: 1.458vw;
+    font-weight: bold;
+  }
+  .prd_flex .product_info_xl--right .top_xl .price_xl {
+    margin-top: 1.198vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .prd_flex .product_info_xl--right .top_xl .price_xl p:first-of-type {
+    font-size: 1.458vw;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .prd_flex .product_info_xl--right .top_xl .price_xl p:last-of-type {
+    margin-bottom: 0;
+    text-decoration: line-through;
+  }
+  .prd_flex .product_info_xl--right .top_xl {
+    padding-bottom: 2.604vw;
+  }
+  .discount_xl {
+    border: 1px solid #92c4ea !important;
+    color: #92c4ea;
+    width: 4.427vw;
+    height: 2.448vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.083vw;
+  }
+  .prd_flex .product_info_xl--right .center_xl {
+    border-top: 1px solid #dadada;
+    padding-top: 2.604vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .colors input:checked ~ .checkmark {
+    background-color: red;
+  }
+  .color p {
+    font-weight: bold;
+  }
+
+  .color p span {
+    font-weight: normal;
+    margin-left: 0.260vw;
+  }
+  #colors {
+    display: flex;
+  }
+  .colors-container,
+  .colors-container2,
+  .colors-container3 {
+    display: block;
+    position: relative;
+    padding-left: 1.823vw;
+    margin-bottom: 0.625vw;
+    cursor: pointer;
+    font-size: 1.146vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .colors-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .colors-container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .colors-container3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.302vw;
+    width: 1.302vw;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .colors-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .colors-container2:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .colors-container3:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .colors-container input:checked ~ .checkmark {
+    background-color: red;
+  }
+
+  .colors-container2 input:checked ~ .checkmark {
+    background-color: blue;
+  }
+  .colors-container3 input:checked ~ .checkmark {
+    background-color: grey;
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .colors-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .colors-container2 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .colors-container3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .rd {
+    visibility: hidden;
+  }
+  /* Style the indicator (dot/circle) */
+  .colors-container .checkmark:after {
+    top: 0.469vw;
+    left: 0.469vw;
+    width: 0.417vw;
+    height: 0.417vw;
+    border-radius: 50%;
+    background: white;
+  }
+  .colors-container2 .checkmark:after {
+    top: 0.469vw;
+    left: 0.469vw;
+    width: 0.417vw;
+    height: 0.417vw;
+    border-radius: 50%;
+    background: white;
+  }
+  .colors-container3 .checkmark:after {
+    top: 0.469vw;
+    left: 0.469vw;
+    width: 0.469vw;
+    height: 0.469vw;
+    border-radius: 50%;
+    background: white;
+  }
+  .center_xl .quantity div:first-of-type {
+    font-size: 0.781vw;
+    font-weight: bold;
+    font-stretch: normal;
+    color: #1b3268;
+  }
+  .center_xl .quantity div:last-of-type {
+    margin-top: 1.042vw;
+  }
+  .center_xl .quantity div:last-of-type select {
+    margin-left: 2.604vw;
+  }
+  .product_info_xl--right .storepay {
+    margin-top: 2.292vw;
+  }
+  .product_info_xl--right .storepay img {
+    width: 39.740vw;
+  }
+  .product_info_xl--right .btns {
+    margin-top: 2.604vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product_info_xl--right .btns button:first-of-type {
+    width: 18.750vw;
+    height: 3.177vw;
+    background-color: #1b3268;
+    border-radius: 1.563vw;
+    color: #fff;
+    font-size: 1.042vw;
+    font-weight: bold;
+    border: none;
+  }
+  .product_info_xl--right .btns button:last-of-type {
+    width: 18.750vw;
+    height: 3.177vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+    color: #000;
+    font-size: 1.042vw;
+    font-weight: bold;
+    border: none;
+    border: 1px solid #dadada;
+    text-transform: uppercase;
+  }
+  .productDetail .related_prods {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.708vw;
+    gap: 1.406vw;
+    padding-left: 1.042vw;
+    padding-right: 1.042vw;
+  }
+  .productDetail .related_prods div:first-of-type {
+      font-size: 1.042vw;
+      font-weight: bold;
+  }
+  .productDetail .related_prod--wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
   }
 }

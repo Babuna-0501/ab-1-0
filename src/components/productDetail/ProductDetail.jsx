@@ -16,6 +16,12 @@ import Product from "../product/Product";
 import Product2 from "../product2/product2";
 import Product3 from "../product3/product3";
 import Product4 from "../product4/product4";
+import Share from "../../assets/share_sp.svg"
+import Like from "../../assets/like_sp.svg"
+import Store_sp from "../../assets/store_p_sp.png"
+import Footer from "../footer/footer";
+
+
 
 function ProductDetail({id, brand, price, desc, category, image }) {
     // const dispatch = useDispatch();
@@ -38,7 +44,8 @@ function ProductDetail({id, brand, price, desc, category, image }) {
     return ( 
         <div className='productDetail'>
             <div className="prd_flex">
-            <Carousel
+                <div style={{position:"relative"}}>
+                <Carousel
                 autoPlay
                 infiniteLoop
                 showStatus={false}
@@ -63,6 +70,10 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                     <img loading='lazy' src={Img5} alt="" />
                 </div>
             </Carousel>
+                <img className="share_btn" src={Share} alt="lazy" />
+                <img className="like_btn" src={Like} alt="lazy" />
+                </div>
+  
                 <div className="product_info_xl--right">
                     <div><img className="brand_icon" src={Brand} alt="" /></div>
                     <div className="top_xl">
@@ -150,6 +161,40 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                         -50%
                     </div>
                 </div>
+                <div className="center_sp">
+                    <div className="color">
+                        <p>Өнгө: <span>Улаан</span></p>
+                        <div id="colors">
+                            <label class="colors-container">  <span className="rd"></span>
+                            <input type="radio" checked="checked" name="radio"/>
+                            <span class="checkmark"></span>
+                            </label>
+                            <label class="colors-container2">  <span className="rd"></span>
+                            <input type="radio" name="radio"/>
+                            <span class="checkmark"></span>
+                            </label>
+                            <label class="colors-container3"> <span className="rd"></span>
+                            <input type="radio" name="radio"/>
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div className="quantity">
+                        <div>Агуулахад байгаа</div>
+                        <div>
+                            <label for='number-dd'><b>Тоо:</b></label>
+                            <select id='number-dd' name='number'>
+                                <option value=''></option>
+                                <option value='one'>1</option>
+                                <option value='two'>2</option>
+                                <option value='three'>3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div className="store_p--sp">
+                    <img className="store_p--sp--img" src={Store_sp} alt='lazy'/>
+                </div>
                 <div className='productDetail_payment'>
                     <div className='top'>
                         <Link to='/product/purchase'>
@@ -173,6 +218,7 @@ function ProductDetail({id, brand, price, desc, category, image }) {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
