@@ -77,15 +77,19 @@ div {
         font-size: 24px;
     }
     .products div div ul li a {
-        padding: 8px 37px !important;
+        padding: 8px 0!important;
         opacity: 1 !important;
     }
     .products ul {
        display: flex;
        justify-content: center;
+       gap: 50px;
     }
     #id1 {
         background-color: #000;
+    }
+    .products div div div {
+        background-color: #000 !important;
     }
 }
 @media screen and (min-width: 800px) and  (max-width: 1920px) {
@@ -103,12 +107,16 @@ div {
         font-size: 1.250vw;
     }
     .products div div ul li a {
-        padding: 0.417vw 1.927vw !important;
+        padding: 0.417vw 0!important;
         opacity: 1 !important;
     }
     .products ul {
        display: flex;
        justify-content: center;
+       gap: 2.604vw;
+    }
+    .products div div div {
+        background-color: #000 !important;
     }
     #id1 {
         background-color: #000;

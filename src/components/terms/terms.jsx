@@ -1,8 +1,10 @@
 import "./terms.css";
+import Footer  from  "../footer/footer"
 
 
 const terms = () => {
   return (
+      <>
     <div className='terms'>
         <h2>Үйлчилгээний нөхцөл</h2>
         <div>
@@ -52,6 +54,8 @@ const terms = () => {
             <p>Төлбөрийн буцаалт хийлгэх болсон шалтгаан:</p>
         </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

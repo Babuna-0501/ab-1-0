@@ -5,7 +5,8 @@ import Footer from '../../footer/footer'
 
 const loan = () => {
   return (
-    <div className='loan'>
+      <>
+        <div className='loan'>
         <h4>Зээлээр авах</h4>
         <div className='loan_layout--pc'>
         <Form className='form--pc'>
@@ -66,8 +67,10 @@ const loan = () => {
         <button className='loan__btn'>Үргэлжлүүлэх</button>
         <Total/>
         </div>
-        <Footer/>
     </div>
+    <Footer/>
+    </>
+  
   )
 }
 

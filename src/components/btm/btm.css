@@ -1,7 +1,7 @@
 @media screen and (min-width: 1921px) {
     .btm {
         width: 100%;
-        background-image: linear-gradient(to bottom, #92c4ea, #bcda7b);
+        background-image: linear-gradient(to bottom, #92C4EA, #1659C6);
         margin-top: 50px;
     
     }
@@ -100,7 +100,7 @@
     .btm {
         width: 100%;
         height: auto;
-        background-image: linear-gradient(to bottom, #c73450, #1a1a1a);
+        background-image: linear-gradient(to bottom, #92c4ea, #bcda7b);
         padding: 50px 25px 0;
         color: #fff;
         font-family: 'Montserrat', 'sans-serif';
@@ -157,7 +157,7 @@
 @media screen and (min-width: 800px) and  (max-width: 1920px) {
     .btm {
         width: 100%;
-        background-image: linear-gradient(to bottom, #92c4ea, #bcda7b);
+        background-image: linear-gradient(to bottom, #92C4EA, #1659C6);
         margin-top: 2.604vw;
     
     }

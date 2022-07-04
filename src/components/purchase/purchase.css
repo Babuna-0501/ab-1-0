@@ -1,39 +1,74 @@
-.purchase .tab1_wrapper, .tab2_wrapper  {
-    padding: 50px 30px;
-    font-size: 12px;
-    font-family: Montserrat;
+
+.purchase {
+    font-family: "Montserrat", sans-serif;
 }
 
-.purchase .lbl_txt {
-    font-size: 20px;
-    font-family: Montserrat;
-}
- 
-.purchase div div ul li a {
-    font-size: 20px;
-    font-family: Montserrat;
-    opacity: 1 !important;
-}
-.purchase .tabOne {
-    background-color: black !important;
-}
-
-.purchase .form-control {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    padding-left: 2rem;
-}
-
-.purchase .form-label {
-   margin-bottom: -1rem;
-   position: relative;
-}
-
-.purchase ul {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem;
+@media screen and (max-width: 800px) {
+    .purchase .tab1_wrapper, .tab2_wrapper  {
+        padding: 50px 30px;
+        font-size: 12px;
+         font-family: "Montserrat", sans-serif;
+    }
+    
+    .purchase .lbl_txt {
+        font-size: 12px;
+         font-family: "Montserrat", sans-serif;
+    }
+     
+    .purchase div div ul li a {
+        font-size: 12px;
+         font-family: "Montserrat", sans-serif;
+        opacity: 1 !important;
+    }
+    .purchase .tabOne {
+        background-color: black !important;
+    }
+    
+    .purchase .form-control {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding-left: 2rem;
+    }
+    
+    .purchase .form-label {
+       margin-bottom: -1rem;
+       position: relative;
+    }
+    
+    .purchase ul {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem;
+    }
+    .purchase .total {
+        display: none;
+    }
+    .purchase .btm_view {
+        width: 100%;
+        height: 50px;
+        background-color: #1B3268;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .purchase .btm_view div {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 }
 
 /* .purchase textarea:hover, input:hover, textarea:active, input:active, select:active, select:hover, textarea:focus, input:focus, button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {

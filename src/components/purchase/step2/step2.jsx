@@ -18,6 +18,7 @@ import Total from "../../total/total";
 import Footer from "../../footer/footer";
 import Account from "../../byaccount/account";
 import Qr from "../../../assets/qr-code.svg";
+import By from "../../../assets/by_acc.png"
 
 const Step2 = () => {
 
@@ -102,6 +103,7 @@ const Step2 = () => {
             <div className="lbl-wrapper">
                     {['bottom'].map((placement, idx) => (
                         <>
+                        <img src={By} alt="lazy" />
                         <Form.Check
                         label="Дансаар шилжүүлэх"
                         name="group1"
@@ -114,6 +116,7 @@ const Step2 = () => {
                     ))}
             </div>
             <div className="lbl-wrapper">
+                <img src={HHbank} alt="" />
                 <Form.Check
                 label="Худалдаа хөгжлийн банк"
                 name="group1"
@@ -122,6 +125,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Most} alt="" />
                 <Form.Check
                 label="Most Money"
                 name="group1"
@@ -130,6 +134,7 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Store} alt="lazy" />
                 <Form.Check
                 label="Store Pay"
                 name="group1"
@@ -138,51 +143,48 @@ const Step2 = () => {
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Simple} alt="" />
                 <Form.Check
-                label="Most Money"
+                label="Simple.mn"
                 name="group1"
                 type={type}
                 id={`inline-${type}-5`}
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Social} alt="" />
                 <Form.Check
-                label="Simple.mn"
+                label="Social Pay"
                 name="group1"
                 type={type}
                 id={`inline-${type}-6`}
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Xaan} alt="" />
                 <Form.Check
-                label="Social Pay"
+                label="Хаан Банк"
                 name="group1"
                 type={type}
                 id={`inline-${type}-7`}
                 />
             </div>
             <div className="lbl-wrapper">
+                <img src={Statebank} alt="" />
                 <Form.Check
-                label="Хаан Банк"
+                label="Төрийн Банк"
                 name="group1"
                 type={type}
                 id={`inline-${type}-8`}
                 />
             </div>
             <div className="lbl-wrapper">
-                <Form.Check
-                label="Төрийн Банк"
-                name="group1"
-                type={type}
-                id={`inline-${type}-9`}
-                />
-            </div>
-            <div className="lbl-wrapper">
+                <img src={Ub} alt="" />
                 <Form.Check
                 label="Улаанбаатар Хотын Банк"
                 name="group1"
                 type={type}
-                id={`inline-${type}-10`}
+                id={`inline-${type}-9`}
                 />
             </div>
         </div>

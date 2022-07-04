@@ -92,6 +92,11 @@ const Purchase = () => {
         </Tabs>
 
         <Total/>
+        <div className="btm_view">
+            <div>Төлөх дүн</div>
+          
+            <div>1,229,900₮</div>
+        </div>
     </div>
   )
 }

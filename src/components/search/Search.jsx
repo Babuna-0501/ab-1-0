@@ -36,7 +36,7 @@ const Search = () => {
   }, [searchTerm]);
   return (
     <div className="search">
-        <div className="search_wrapper">   
+        <div className="search_wrapper wrp_search">   
             <Link to='/'>
               <img src={Arrow} alt="" />
             </Link>
