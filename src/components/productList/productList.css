@@ -12,8 +12,8 @@
     text-decoration: none;
 }
 .productList .prod-wrapper {
-    margin-left: 6.505vw;
-    margin-right: 6.505vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .productList a {
     font-family: Montserrat;
@@ -50,6 +50,27 @@
 }
 
 .productList ul {
-    padding-left: 2rem !important;
-    padding-right: 2rem;
+    /* padding-left: 2rem !important;
+    padding-right: 2rem; */
+}
+
+@media screen and (min-width: 800px) {
+    .productList .btm_view {
+        display: none;
+    }
+    .productList {
+        display: flex;
+        position: relative;
+    }
+    .productList .acc_wrapper {
+        position: absolute;
+        top: 90px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+    .productList {
+        display: unset;
+        position: relative;
+    }
 }

@@ -11,9 +11,9 @@ const Burger = () => {
                     <span>
                       <a href="#">Бүх ангилал</a>
                     </span>
-                    <span><a href="#">Цахилгаан бараа</a></span>
-                    <span><a href="#">Гар утас</a></span>
-                    <span><a href="#">Компьютер</a></span>
+                    <span><a href="/productList">Цахилгаан бараа</a></span>
+                    <span><a href="/productList">Гар утас</a></span>
+                    <span><a href="/productList">Компьютер</a></span>
                 </div>
                 <ul>     
                   <span className='ul_span'>

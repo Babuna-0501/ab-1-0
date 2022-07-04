@@ -1,12 +1,14 @@
 import './productList.css'
 import { Tabs } from "@yazanaabed/react-tabs";
 import Product from '../product/Product';
-
+import Accordion from '../accordion/accordion';
 
 
 const productList = () => {
   return (
     <div className='productList'>
+        <div className='acc_wrapper'><Accordion/></div>
+        <div>
         <Tabs
           activeTab={{
               id: "tab1"
@@ -40,6 +42,8 @@ const productList = () => {
               <div className='prod-wrapper'><Product/><Product/><Product/></div>
           </Tabs.Tab>
         </Tabs>
+        </div>
+  
         <div className="btm_view">
             <div>Төлөх дүн</div>
           

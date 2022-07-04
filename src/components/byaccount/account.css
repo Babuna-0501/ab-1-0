@@ -129,7 +129,7 @@ button:focus {outline:0;}
     
     .modal-content {
         width: 47.500vw;
-        height: 49.375vw;
+        /* height: 49.375vw; */
     }
     
     .modal-header {
